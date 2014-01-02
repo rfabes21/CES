@@ -10,12 +10,13 @@ $baseUrl: env_or_default("STATIC_URL", "/static/");
 // -------------------------
 $white:                     #fff !default;
 $black:                     #000 !default;
+$red: 						#ac3322;
+$grey: 						#131313;
+$light-grey: 				#303030;
 
 // Scaffolding
 // -------------------------
-$bodyBackground:            $white !default;
-$textColor:                 $black !default;
-$hrBorder:                  $black !default;
+$bodyBackground:            $black !default;
 
 // Links
 // -------------------------
@@ -27,13 +28,21 @@ $linkColorHover:            darken($linkColor, 15%) !default;
 $baseFontSize:              12px !default;
 $baseFontFamily:            "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $baseLineHeight:            1.2 !default;
+$textColor: 				$white;
 
 $headingsFontFamily:        inherit !default; // empty to use BS default, $baseFontFamily
 $headingsFontWeight:        bold !default;    // instead of browser default, bold
 $headingsColor:             inherit !default; // empty to use BS default, $textColor
 
+// Fonts
+// -------------------------
+$ProximaRegular:			"Proxima N W15 Reg";
+$ProximaSemiBold:			"Proxima N W15 Smbd";
+$ProximaThin:				"Proxima N W01 Thin Reg";
+$DinNextCondensed:          "DINNextW01-CondensedLig";
+
 // Buttons
 // -------------------------
-$btnBackground:             $white !default;
+$btnBackground:             transparent !default;
 $btnBackgroundHighlight:    darken($white, 10%) !default;
 $btnBorder:                 #bbb !default;

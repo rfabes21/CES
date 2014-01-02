@@ -1,69 +1,334 @@
-/*
-Syntax error: File to import not found or unreadable: compass.
-              Load path: /Users/rfabester/webroot/CES
-        on line 2 of static/css/src/styles.scss
+/* line 18, src/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
 
-1: // Compass
-2: @import "compass";
-3: 
-4: // Core variables and mixins
-5: @import "variables"; // Set colors, typography, etc
-6: @import "mixins"; // Mixins outside of what Compass offers
-7: 
+/* line 25, src/_reset.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
 
-Backtrace:
-static/css/src/styles.scss:2
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/import_node.rb:67:in `import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:217:in `visit_import'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:109:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:121:in `with_environment'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:108:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:128:in `visit_root'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:100:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:362:in `update_stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:203:in `update_stylesheets'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `each'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:201:in `update_stylesheets'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:283:in `watch'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:117:in `initialize_adapter'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:198:in `report_changes'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapter.rb:210:in `poll_changed_dirs'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/darwin.rb:38:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/darwin.rb:38:in `initialize'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/darwin.rb:38:in `new'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/adapters/darwin.rb:38:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/vendor/listen/lib/listen/multi_listener.rb:44:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin/compiler.rb:291:in `watch'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin.rb:107:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:455:in `watch_or_update'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:318:in `process_result'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:41:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.10/bin/sass:9
-/usr/bin/sass:23:in `load'
-/usr/bin/sass:23
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: compass.\A               Load path: /Users/rfabester/webroot/CES\A         on line 2 of static/css/src/styles.scss\A \A 1: // Compass\A 2: @import \"compass\";\A 3: \A 4: // Core variables and mixins\A 5: @import \"variables\"; // Set colors, typography, etc\A 6: @import \"mixins\"; // Mixins outside of what Compass offers\A 7: "; }
+/* line 32, src/_reset.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/* line 37, src/_reset.scss */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 42, src/_reset.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 48, src/_reset.scss */
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 53, src/_reset.scss */
+a:hover,
+a:active {
+  outline: 0;
+}
+
+/* line 59, src/_reset.scss */
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+/* line 65, src/_reset.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 68, src/_reset.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 73, src/_reset.scss */
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%;
+  /* Part 1: Set a maxium relative to the parent */
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 85, src/_reset.scss */
+#map_canvas img {
+  max-width: none;
+}
+
+/* line 93, src/_reset.scss */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+/* line 99, src/_reset.scss */
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+/* line 104, src/_reset.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 111, src/_reset.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* line 115, src/_reset.scss */
+input[type="search"] {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: textfield;
+}
+
+/* line 122, src/_reset.scss */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 125, src/_reset.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 131, src/_reset.scss */
+ul, ol {
+  padding: 0;
+  margin: 0 0 0.6 25px;
+}
+
+/* line 138, src/_reset.scss */
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+/* line 141, src/_reset.scss */
+li {
+  line-height: 1.2;
+}
+
+/* line 145, src/_reset.scss */
+ul.unstyled,
+ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+
+/* line 149, src/_reset.scss */
+dl {
+  margin-bottom: 1.2;
+}
+
+/* line 153, src/_reset.scss */
+dt,
+dd {
+  line-height: 1.2;
+}
+
+/* line 156, src/_reset.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 159, src/_reset.scss */
+dd {
+  margin-left: 0.6;
+}
+
+/* line 16, src/_scaffolding.scss */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.2;
+  color: white;
+  background-color: black;
+}
+
+/* line 29, src/_scaffolding.scss */
+.embed-container {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+/* line 34, src/_scaffolding.scss */
+.embed-container iframe, .embed-container object, .embed-container embed, .embed-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, src/_type.scss */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+/* line 10, src/_type.scss */
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+
+/* line 18, src/_type.scss */
+p {
+  margin: 0 0 0.6;
+}
+
+/* line 23, src/_type.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 24, src/_type.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 25, src/_type.scss */
+em {
+  font-style: italic;
+}
+
+/* line 26, src/_type.scss */
+cite {
+  font-style: normal;
+}
+
+/* line 31, src/_type.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.6 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+/* line 38, src/_type.scss */
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: inherit;
+}
+
+/* line 44, src/_type.scss */
+h1 {
+  font-size: 65px;
+  line-height: 40px;
+}
+
+/* line 45, src/_type.scss */
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+/* line 46, src/_type.scss */
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+/* line 47, src/_type.scss */
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* line 48, src/_type.scss */
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 49, src/_type.scss */
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* line 51, src/_type.scss */
+h1 small {
+  font-size: 24px;
+}
+
+/* line 52, src/_type.scss */
+h2 small {
+  font-size: 18px;
+}
+
+/* line 53, src/_type.scss */
+h3 small {
+  font-size: 14px;
+}
+
+/* line 54, src/_type.scss */
+h4 small {
+  font-size: 14px;
+}
+
+/* line 57, src/_type.scss */
+address {
+  display: block;
+  margin-bottom: 1.2;
+  font-style: normal;
+  line-height: 1.2;
+}

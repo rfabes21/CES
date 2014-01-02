@@ -8,6 +8,10 @@
 // CSS Reset
 @import "reset"; // normalize all browsers
 
+// CSS Scaffolding
+@import "scaffolding";
+
 // Base CSS
-@import "fonts"; // @font-face embeds
 @import "type"; // Base typography
+
+
