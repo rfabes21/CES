@@ -236,29 +236,31 @@ a:hover {
 /* line 18, src/_type.scss */
 p {
   margin: 0 0 0.6;
+  font-family: "Proxima N W15 Reg";
+  font-size: 20px;
 }
 
-/* line 23, src/_type.scss */
+/* line 28, src/_type.scss */
 small {
   font-size: 85%;
 }
 
-/* line 24, src/_type.scss */
+/* line 29, src/_type.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 25, src/_type.scss */
+/* line 30, src/_type.scss */
 em {
   font-style: italic;
 }
 
-/* line 26, src/_type.scss */
+/* line 31, src/_type.scss */
 cite {
   font-style: normal;
 }
 
-/* line 31, src/_type.scss */
+/* line 36, src/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0.6 0;
   line-height: 1;
@@ -266,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   text-spacing: 10;
 }
 
-/* line 38, src/_type.scss */
+/* line 43, src/_type.scss */
 h1 {
   font-size: 65px;
   line-height: 40px;
@@ -276,7 +278,7 @@ h1 {
   margin: 50px 0 20px 0;
 }
 
-/* line 47, src/_type.scss */
+/* line 52, src/_type.scss */
 h2 {
   font-size: 64px;
   line-height: 50px;
@@ -285,10 +287,10 @@ h2 {
   text-transform: uppercase;
   font-weight: 100;
   margin: 25% 0 15px 0;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
-/* line 58, src/_type.scss */
+/* line 63, src/_type.scss */
 h3 {
   font-size: 55px;
   line-height: 55px;
@@ -296,10 +298,10 @@ h3 {
   font-weight: 100;
   padding: 0;
   margin: 20px 0 20px 0;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
-/* line 68, src/_type.scss */
+/* line 73, src/_type.scss */
 h4 {
   font-size: 40px;
   line-height: 40px;
@@ -308,10 +310,10 @@ h4 {
   font-weight: 100;
   padding: 0;
   margin: 5px 0 20px 0;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
-/* line 79, src/_type.scss */
+/* line 84, src/_type.scss */
 h5 {
   font-size: 36px;
   line-height: 36px;
@@ -320,27 +322,37 @@ h5 {
   font-weight: 100;
   padding: 0;
   margin: 20px 0 20px 0;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 
-/* line 90, src/_type.scss */
+/* line 95, src/_type.scss */
 h6 {
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 95, src/_type.scss */
+/* line 100, src/_type.scss */
 hr {
   margin: 1.2 0;
-  width: 60px;
+  height: 2px;
   border: 0;
+  margin-top: 35px;
+  margin-bottom: 35px;
   border-bottom: 1px solid white;
 }
 
-/* line 103, src/_type.scss */
+/* line 110, src/_type.scss */
 address {
   display: block;
   margin-bottom: 1.2;
   font-style: normal;
   line-height: 1.2;
+}
+
+/* line 5, src/_p-styles-template.scss */
+.info .main-info {
+  width: 650px;
+  line-height: 30px;
+  font-weight: 100;
+  margin: auto;
 }

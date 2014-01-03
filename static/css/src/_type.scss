@@ -15,7 +15,12 @@ a {
 
 // Body text
 // -------------------------
-p { margin: 0 0 $baseLineHeight / 2; }
+p { 
+    margin: 0 0 $baseLineHeight / 2;
+    font-family: $ProximaRegular;
+    font-size: 20px;
+
+}
 
 
 // Emphasis & Misc
@@ -94,8 +99,10 @@ h6 {
 // Horizontal rules
 hr {
     margin: $baseLineHeight 0;
-    width: 60px;
+    height: 2px;
     border: 0;
+    margin-top: 35px;
+    margin-bottom: 35px;
     border-bottom: 1px solid $white;
 }
 
