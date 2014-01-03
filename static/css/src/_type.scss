@@ -30,28 +30,74 @@ cite { font-style: normal; }
 // -------------------------
 h1, h2, h3, h4, h5, h6 {
     margin: ($baseLineHeight / 2) 0;
-    font-family: $headingsFontFamily;
-    font-weight: $headingsFontWeight;
     line-height: 1;
-    color: $headingsColor;
     text-rendering: optimizelegibility; // Fix the character spacing for headings
-    small {
-        font-weight: normal;
-        line-height: 1;
-        color: $headingsColor;
-    }
+    text-spacing: 10;
+   
 }
-h1 { font-size: 65px; line-height: 40px; }
-h2 { font-size: 30px; line-height: 40px; }
-h3 { font-size: 24px; line-height: 40px; }
-h4 { font-size: 18px; line-height: 20px; }
-h5 { font-size: 14px; line-height: 20px; }
-h6 { font-size: 12px; line-height: 20px; }
+h1 {    
+    font-size: 65px; 
+    line-height: 40px;
+    color: $white;
+    font-family: $ProximaThin;
+    font-weight: bold;
+    margin: 50px 0 20px 0;
 
-h1 small { font-size: 24px; }
-h2 small { font-size: 18px; }
-h3 small { font-size: 14px; }
-h4 small { font-size: 14px; }
+}
+h2 { 
+    font-size: 64px; 
+    line-height: 50px;
+    color: $white;
+    font-family: $ProximaThin;
+    text-transform: uppercase;
+    font-weight: $headingsFontWeight;
+    margin: 25% 0 15px 0;  
+    letter-spacing: $headingsLetterSpacing;
+}
+
+h3{
+    font-size: 55px;
+    line-height: 55px;
+    color: $white;
+    font-weight: $headingsFontWeight;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    letter-spacing: $headingsLetterSpacing;
+}
+
+h4 { 
+    font-size: 40px;
+    line-height: 40px;
+    color: $red;
+    font-family: $ProximaThin;
+    font-weight: $headingsFontWeight;
+    padding: 0;
+    margin: 5px 0 20px 0;
+    letter-spacing: $headingsLetterSpacing;
+}
+
+h5 { 
+    font-size: 36px; 
+    line-height: 36px;
+    color: $red;
+    font-family: $ProximaThin;
+    font-weight: $headingsFontWeight;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    letter-spacing: $headingsLetterSpacing;
+}
+
+h6 { 
+    font-size: 14px; 
+    line-height: 20px; }
+
+// Horizontal rules
+hr {
+    margin: $baseLineHeight 0;
+    width: 60px;
+    border: 0;
+    border-bottom: 1px solid $white;
+}
 
 // Addresses
 address {

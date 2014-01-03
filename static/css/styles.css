@@ -201,14 +201,19 @@ body {
   background-color: black;
 }
 
-/* line 29, src/_scaffolding.scss */
+/* line 25, src/_scaffolding.scss */
+.content {
+  text-align: center;
+}
+
+/* line 33, src/_scaffolding.scss */
 .embed-container {
   position: relative;
   height: 0;
   padding-bottom: 56.25%;
   overflow: hidden;
 }
-/* line 34, src/_scaffolding.scss */
+/* line 38, src/_scaffolding.scss */
 .embed-container iframe, .embed-container object, .embed-container embed, .embed-container video {
   position: absolute;
   top: 0;
@@ -256,76 +261,83 @@ cite {
 /* line 31, src/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0.6 0;
-  font-family: inherit;
-  font-weight: bold;
   line-height: 1;
-  color: inherit;
   text-rendering: optimizelegibility;
-}
-/* line 38, src/_type.scss */
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-  font-weight: normal;
-  line-height: 1;
-  color: inherit;
+  text-spacing: 10;
 }
 
-/* line 44, src/_type.scss */
+/* line 38, src/_type.scss */
 h1 {
   font-size: 65px;
   line-height: 40px;
-}
-
-/* line 45, src/_type.scss */
-h2 {
-  font-size: 30px;
-  line-height: 40px;
-}
-
-/* line 46, src/_type.scss */
-h3 {
-  font-size: 24px;
-  line-height: 40px;
+  color: white;
+  font-family: "Proxima N W01 Thin Reg";
+  font-weight: bold;
+  margin: 50px 0 20px 0;
 }
 
 /* line 47, src/_type.scss */
+h2 {
+  font-size: 64px;
+  line-height: 50px;
+  color: white;
+  font-family: "Proxima N W01 Thin Reg";
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 25% 0 15px 0;
+  letter-spacing: 2px;
+}
+
+/* line 58, src/_type.scss */
+h3 {
+  font-size: 55px;
+  line-height: 55px;
+  color: white;
+  font-weight: 100;
+  padding: 0;
+  margin: 20px 0 20px 0;
+  letter-spacing: 2px;
+}
+
+/* line 68, src/_type.scss */
 h4 {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #ac3322;
+  font-family: "Proxima N W01 Thin Reg";
+  font-weight: 100;
+  padding: 0;
+  margin: 5px 0 20px 0;
+  letter-spacing: 2px;
 }
 
-/* line 48, src/_type.scss */
+/* line 79, src/_type.scss */
 h5 {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ac3322;
+  font-family: "Proxima N W01 Thin Reg";
+  font-weight: 100;
+  padding: 0;
+  margin: 20px 0 20px 0;
+  letter-spacing: 2px;
 }
 
-/* line 49, src/_type.scss */
+/* line 90, src/_type.scss */
 h6 {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
 }
 
-/* line 51, src/_type.scss */
-h1 small {
-  font-size: 24px;
+/* line 95, src/_type.scss */
+hr {
+  margin: 1.2 0;
+  width: 60px;
+  border: 0;
+  border-bottom: 1px solid white;
 }
 
-/* line 52, src/_type.scss */
-h2 small {
-  font-size: 18px;
-}
-
-/* line 53, src/_type.scss */
-h3 small {
-  font-size: 14px;
-}
-
-/* line 54, src/_type.scss */
-h4 small {
-  font-size: 14px;
-}
-
-/* line 57, src/_type.scss */
+/* line 103, src/_type.scss */
 address {
   display: block;
   margin-bottom: 1.2;

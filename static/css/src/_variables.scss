@@ -31,8 +31,9 @@ $baseLineHeight:            1.2 !default;
 $textColor: 				$white;
 
 $headingsFontFamily:        inherit !default; // empty to use BS default, $baseFontFamily
-$headingsFontWeight:        bold !default;    // instead of browser default, bold
+$headingsFontWeight:        100 !default;    // instead of browser default, bold
 $headingsColor:             inherit !default; // empty to use BS default, $textColor
+$headingsLetterSpacing: 	2px;
 
 // Fonts
 // -------------------------
