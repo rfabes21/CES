@@ -275,7 +275,7 @@ h1 {
   color: white;
   font-family: "Proxima N W01 Thin Reg";
   font-weight: bold;
-  margin: 50px 0 20px 0;
+  margin: 25% 0 20px 0;
 }
 
 /* line 52, src/_type.scss */
@@ -349,10 +349,124 @@ address {
   line-height: 1.2;
 }
 
-/* line 5, src/_p-styles-template.scss */
+/* line 5, src/_c-buttons.scss */
+button {
+  background-color: transparent;
+  border: 1px solid #303030;
+  padding: 0;
+  color: #bbbbbb;
+  font-family: "Proxima N W15 Reg";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/* line 15, src/_c-buttons.scss */
+button:hover {
+  background-color: #303030;
+  border: 1px solid black;
+  color: black;
+}
+/* line 22, src/_c-buttons.scss */
+button:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 28, src/_c-buttons.scss */
+.btn {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+}
+/* line 32, src/_c-buttons.scss */
+.btn .btn-large {
+  width: 268px;
+  height: 56px;
+}
+/* line 37, src/_c-buttons.scss */
+.btn .btn-medium {
+  width: 188px;
+  height: 46px;
+  margin: 10px;
+}
+
+/* line 4, src/_p-styles-template.scss */
+.info {
+  color: #bbbbbb;
+}
+/* line 7, src/_p-styles-template.scss */
 .info .main-info {
   width: 650px;
   line-height: 30px;
   font-weight: 100;
   margin: auto;
+}
+/* line 14, src/_p-styles-template.scss */
+.info .details {
+  width: 285px;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  line-height: 25px;
+  margin: 40px 40px 40px 50px;
+}
+/* line 22, src/_p-styles-template.scss */
+.info .details span {
+  font-size: 25px;
+  line-height: 25px;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+/* line 35, src/_p-styles-template.scss */
+blockquote p {
+  width: 569px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Proxima N W15 Reg";
+  color: #bbbbbb;
+  margin: auto;
+  text-align: left;
+}
+/* line 45, src/_p-styles-template.scss */
+blockquote p span {
+  border-bottom: 1px solid #303030;
+  padding-bottom: 10px;
+  display: inline;
+}
+
+/* line 54, src/_p-styles-template.scss */
+.stamp {
+  font-family: "Proxima N W15 Reg";
+  font-size: 55px;
+}
+/* line 58, src/_p-styles-template.scss */
+.stamp div {
+  color: white;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  display: inline-block;
+  width: 200px;
+  letter-spacing: -1px;
+  padding: 20px;
+  margin: 20px;
+}
+/* line 68, src/_p-styles-template.scss */
+.stamp div span {
+  font-size: 14px;
+  color: #bbbbbb;
+  display: block;
+  margin-top: 0;
+}
+
+/* line 77, src/_p-styles-template.scss */
+.btn {
+  margin: 200px;
+}
+/* line 80, src/_p-styles-template.scss */
+.btn div {
+  margin: 25px;
 }

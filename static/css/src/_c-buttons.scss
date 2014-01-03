@@ -4,8 +4,24 @@
 
 button {
     background-color: transparent;
-    border: none;
+    border: 1px solid $light-grey;
     padding: 0;
+    color: $lighter-grey;
+    font-family: $ProximaRegular;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    //Hover State
+    &:hover {
+        background-color: $light-grey;
+        border: 1px solid $black;
+        color: $black
+    }
+    
+    // Focus state for keyboard and accessibility
+    &:focus {
+        @include tab-focus();
+    }
 }
 
 // Core
@@ -13,12 +29,14 @@ button {
     display: inline-block;
     @include ie7-inline-block();
 
-    // Hover state
-    &:hover {
+    .btn-large {
+        width: 268px;
+        height: 56px;
     }
 
-    // Focus state for keyboard and accessibility
-    &:focus {
-        @include tab-focus();
+    .btn-medium {
+        width: 188px;
+        height: 46px;
+        margin: 10px;
     }
 }

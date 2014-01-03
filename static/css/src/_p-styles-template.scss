@@ -2,13 +2,82 @@
 // Styles Page Specific
 
 .info {
+	color: $lighter-grey;
+
 	.main-info {
 	width: 650px;
 	line-height: 30px;
 	font-weight: 100;
 	margin: auto;
 	}
+	
 	.details {
+	width: 285px;
+	font-size: 16px;
+	font-weight: 100;
+	text-align: left;
+	line-height: 25px;
+	margin: 40px 40px 40px 50px;
 		
+		span {
+			font-size: 25px;
+			line-height: 25px;
+			display: block;
+			margin-bottom: 20px;
+			line-height: 30px;
+		}
+
+	}
+}
+
+blockquote {
+	
+	p {
+		width: 569px;
+		line-height: 40px;
+		font-size: 18px;
+		font-weight: 100;
+		font-family: $ProximaRegular;
+		color: $lighter-grey;
+		margin: auto;
+		text-align: left;
+		
+		span {
+			border-bottom: 1px solid $light-grey;
+			padding-bottom: 10px;
+			display: inline;
+		}
+
+	}
+}
+
+.stamp {
+	font-family: $ProximaRegular;
+	font-size: 55px;
+	
+	div {
+		color: $white;
+		border-top: 1px solid $light-grey;
+		border-bottom: 1px solid $light-grey;
+		display: inline-block;
+		width: 200px;
+		letter-spacing: -1px;
+		padding: 20px;
+		margin: 20px;
+		
+		span {
+			font-size: 14px;
+			color: $lighter-grey;
+			display: block;
+			margin-top: 0;
+		}
+	}
+}
+
+.btn {
+	margin: 200px;
+	
+	div {
+		margin: 25px;
 	}
 }
