@@ -17,7 +17,9 @@
 	font-weight: 100;
 	text-align: left;
 	line-height: 25px;
-	margin: 40px 40px 40px 50px;
+	margin: 40px;
+	position: relative;
+	display: inline-block;
 		
 		span {
 			font-size: 25px;
@@ -26,52 +28,93 @@
 			margin-bottom: 20px;
 			line-height: 30px;
 		}
-
 	}
 }
 
 blockquote {
+	width: 569px;
+	margin: auto;
+	text-align: justify;
+	position: relative;
+	quotes: "“" "”" "‘" "’";
 	
+	&:before {
+		content: open-quote;
+		position: absolute;
+		color: $light-grey;
+		font-size: 50px;
+		font-weight: bold;
+		font-family: timesNewRoman;
+		left: -35px;
+		top: -7px;
+		
+	}
+
 	p {
-		width: 569px;
 		line-height: 40px;
 		font-size: 18px;
 		font-weight: 100;
 		font-family: $ProximaRegular;
 		color: $lighter-grey;
-		margin: auto;
-		text-align: left;
-		
-		span {
-			border-bottom: 1px solid $light-grey;
-			padding-bottom: 10px;
-			display: inline;
-		}
+		border-bottom: 1px solid $light-grey;
+		padding-bottom: 10px;
+		display: inline;
+		position: relative;
 
+		&:after {
+			content: close-quote;
+			position: absolute;
+			color: $light-grey;
+			font-size: 50px;
+			font-weight: bold;
+			font-family: timesNewRoman;
+			right: -35px;
+			bottom: -7px;
+		}
 	}
 }
 
 .stamp {
 	font-family: $ProximaRegular;
 	font-size: 55px;
+	color: $white;
+	border-top: 1px solid $light-grey;
+	border-bottom: 1px solid $light-grey;
+	display: inline-block;
+	width: 200px;
+	letter-spacing: -1px;
+	padding: 20px;
+	margin: 20px;
 	
-	div {
-		color: $white;
-		border-top: 1px solid $light-grey;
-		border-bottom: 1px solid $light-grey;
-		display: inline-block;
-		width: 200px;
-		letter-spacing: -1px;
-		padding: 20px;
-		margin: 20px;
-		
-		span {
-			font-size: 14px;
-			color: $lighter-grey;
-			display: block;
-			margin-top: 0;
-		}
+	span {
+		font-size: 14px;
+		color: $lighter-grey;
+		display: block;
+		margin-top: 0;
 	}
+}
+
+.stamp-logo {
+	border-top: 1px solid $light-grey;
+	border-bottom: 1px solid $light-grey;
+	display: inline-block;
+	width: 200px;
+	letter-spacing: -1px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.details-stamp {
+	@extend .stamp;
+	width: 125px;
+	height: 90px;
+	display: inline-block;
+	font-size: 37px;
+	letter-spacing: -2px;
+	padding: 20px;
+	line-height: 1.7;
+	position: relative;
+	top: -115px;
 }
 
 .btn {

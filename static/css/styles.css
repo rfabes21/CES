@@ -1,3 +1,43 @@
+/* line 74, sprites/ui/*.png */
+.ui-sprite, .ui-amazon, .ui-dolby, .ui-netflix, .ui-quote-left, .ui-quote-right {
+  background: url('/static/img/sprites/ui-s65acf87898.png') no-repeat;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-amazon {
+  background-position: 0 0;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-dolby {
+  background-position: 0 -151px;
+  height: 35px;
+  width: 103px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-netflix {
+  background-position: 0 -75px;
+  height: 61px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-quote-left {
+  background-position: 0 -233px;
+  height: 17px;
+  width: 22px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-quote-right {
+  background-position: 0 -201px;
+  height: 17px;
+  width: 22px;
+}
+
 /* line 18, src/_reset.scss */
 article,
 aside,
@@ -409,9 +449,11 @@ button:focus {
   font-weight: 100;
   text-align: left;
   line-height: 25px;
-  margin: 40px 40px 40px 50px;
+  margin: 40px;
+  position: relative;
+  display: inline-block;
 }
-/* line 22, src/_p-styles-template.scss */
+/* line 24, src/_p-styles-template.scss */
 .info .details span {
   font-size: 25px;
   line-height: 25px;
@@ -420,31 +462,53 @@ button:focus {
   line-height: 30px;
 }
 
-/* line 35, src/_p-styles-template.scss */
-blockquote p {
+/* line 34, src/_p-styles-template.scss */
+blockquote {
   width: 569px;
+  margin: auto;
+  text-align: justify;
+  position: relative;
+  quotes: "“" "”" "‘" "’";
+}
+/* line 41, src/_p-styles-template.scss */
+blockquote:before {
+  content: open-quote;
+  position: absolute;
+  color: #303030;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: timesNewRoman;
+  left: -35px;
+  top: -7px;
+}
+/* line 53, src/_p-styles-template.scss */
+blockquote p {
   line-height: 40px;
   font-size: 18px;
   font-weight: 100;
   font-family: "Proxima N W15 Reg";
   color: #bbbbbb;
-  margin: auto;
-  text-align: left;
-}
-/* line 45, src/_p-styles-template.scss */
-blockquote p span {
   border-bottom: 1px solid #303030;
   padding-bottom: 10px;
   display: inline;
+  position: relative;
+}
+/* line 64, src/_p-styles-template.scss */
+blockquote p:after {
+  content: close-quote;
+  position: absolute;
+  color: #303030;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: timesNewRoman;
+  right: -35px;
+  bottom: -7px;
 }
 
-/* line 54, src/_p-styles-template.scss */
-.stamp {
+/* line 77, src/_p-styles-template.scss */
+.stamp, .details-stamp {
   font-family: "Proxima N W15 Reg";
   font-size: 55px;
-}
-/* line 58, src/_p-styles-template.scss */
-.stamp div {
   color: white;
   border-top: 1px solid #303030;
   border-bottom: 1px solid #303030;
@@ -454,19 +518,43 @@ blockquote p span {
   padding: 20px;
   margin: 20px;
 }
-/* line 68, src/_p-styles-template.scss */
-.stamp div span {
+/* line 89, src/_p-styles-template.scss */
+.stamp span, .details-stamp span {
   font-size: 14px;
   color: #bbbbbb;
   display: block;
   margin-top: 0;
 }
 
-/* line 77, src/_p-styles-template.scss */
+/* line 97, src/_p-styles-template.scss */
+.stamp-logo {
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  display: inline-block;
+  width: 200px;
+  letter-spacing: -1px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* line 107, src/_p-styles-template.scss */
+.details-stamp {
+  width: 125px;
+  height: 90px;
+  display: inline-block;
+  font-size: 37px;
+  letter-spacing: -2px;
+  padding: 20px;
+  line-height: 1.7;
+  position: relative;
+  top: -115px;
+}
+
+/* line 120, src/_p-styles-template.scss */
 .btn {
   margin: 200px;
 }
-/* line 80, src/_p-styles-template.scss */
+/* line 123, src/_p-styles-template.scss */
 .btn div {
   margin: 25px;
 }
