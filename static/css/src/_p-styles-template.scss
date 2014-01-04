@@ -75,17 +75,23 @@ blockquote {
 }
 
 .stamp {
-	font-family: $ProximaRegular;
-	font-size: 55px;
-	color: $white;
 	border-top: 1px solid $light-grey;
 	border-bottom: 1px solid $light-grey;
 	display: inline-block;
 	width: 200px;
-	letter-spacing: -1px;
+	height: 80px;
 	padding: 20px;
 	margin: 20px;
 	
+	p {
+		font-family: $ProximaRegular;
+		font-size: 55px;
+		color: $white;
+		letter-spacing: -1px;
+		position: relative;
+		top: -55px;
+	}
+
 	span {
 		font-size: 14px;
 		color: $lighter-grey;
@@ -95,26 +101,27 @@ blockquote {
 }
 
 .stamp-logo {
-	border-top: 1px solid $light-grey;
-	border-bottom: 1px solid $light-grey;
-	display: inline-block;
-	width: 200px;
-	letter-spacing: -1px;
-	padding: 20px;
-	margin: 20px;
+	@extend .stamp;
+	
 }
 
 .details-stamp {
 	@extend .stamp;
+	position: relative;
 	width: 125px;
 	height: 90px;
-	display: inline-block;
-	font-size: 37px;
-	letter-spacing: -2px;
-	padding: 20px;
-	line-height: 1.7;
-	position: relative;
-	top: -115px;
+	top: -100px;
+
+	p {
+		
+		display: inline-block;
+		font-size: 35px;
+		letter-spacing: -1px;
+		position: relative;
+		top: -25px;
+		// line-height: 1.7;
+		position: relative;
+	}
 }
 
 .btn {
