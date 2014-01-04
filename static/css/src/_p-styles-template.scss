@@ -3,7 +3,10 @@
 
 .info {
 	color: $lighter-grey;
-
+	
+	>div {
+		margin: 40px;
+	}
 	.main-info {
 	width: 650px;
 	line-height: 30px;
@@ -102,7 +105,7 @@ blockquote {
 
 .stamp-logo {
 	@extend .stamp;
-	
+
 }
 
 .details-stamp {

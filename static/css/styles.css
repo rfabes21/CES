@@ -435,13 +435,17 @@ button:focus {
   color: #bbbbbb;
 }
 /* line 7, src/_p-styles-template.scss */
+.info > div {
+  margin: 40px;
+}
+/* line 10, src/_p-styles-template.scss */
 .info .main-info {
   width: 650px;
   line-height: 30px;
   font-weight: 100;
   margin: auto;
 }
-/* line 14, src/_p-styles-template.scss */
+/* line 17, src/_p-styles-template.scss */
 .info .details {
   width: 285px;
   font-size: 16px;
@@ -452,7 +456,7 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-/* line 24, src/_p-styles-template.scss */
+/* line 27, src/_p-styles-template.scss */
 .info .details span {
   font-size: 25px;
   line-height: 25px;
@@ -461,7 +465,7 @@ button:focus {
   line-height: 30px;
 }
 
-/* line 34, src/_p-styles-template.scss */
+/* line 37, src/_p-styles-template.scss */
 blockquote {
   width: 569px;
   margin: auto;
@@ -469,7 +473,7 @@ blockquote {
   position: relative;
   quotes: "“" "”" "‘" "’";
 }
-/* line 41, src/_p-styles-template.scss */
+/* line 44, src/_p-styles-template.scss */
 blockquote:before {
   content: open-quote;
   position: absolute;
@@ -480,7 +484,7 @@ blockquote:before {
   left: -35px;
   top: -7px;
 }
-/* line 53, src/_p-styles-template.scss */
+/* line 56, src/_p-styles-template.scss */
 blockquote p {
   line-height: 40px;
   font-size: 18px;
@@ -492,7 +496,7 @@ blockquote p {
   display: inline;
   position: relative;
 }
-/* line 64, src/_p-styles-template.scss */
+/* line 67, src/_p-styles-template.scss */
 blockquote p:after {
   content: close-quote;
   position: absolute;
@@ -504,7 +508,7 @@ blockquote p:after {
   bottom: -7px;
 }
 
-/* line 77, src/_p-styles-template.scss */
+/* line 80, src/_p-styles-template.scss */
 .stamp, .stamp-logo, .details-stamp {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #303030;
@@ -514,7 +518,7 @@ blockquote p:after {
   padding: 20px;
   margin: 20px;
 }
-/* line 86, src/_p-styles-template.scss */
+/* line 89, src/_p-styles-template.scss */
 .stamp p, .stamp-logo p, .details-stamp p {
   font-family: "Proxima N W15 Reg";
   font-size: 55px;
@@ -523,7 +527,7 @@ blockquote p:after {
   position: relative;
   top: -55px;
 }
-/* line 95, src/_p-styles-template.scss */
+/* line 98, src/_p-styles-template.scss */
 .stamp span, .stamp-logo span, .details-stamp span {
   font-size: 14px;
   color: #bbbbbb;
@@ -531,14 +535,14 @@ blockquote p:after {
   margin-top: 0;
 }
 
-/* line 108, src/_p-styles-template.scss */
+/* line 111, src/_p-styles-template.scss */
 .details-stamp {
   position: relative;
   width: 125px;
   height: 90px;
   top: -100px;
 }
-/* line 115, src/_p-styles-template.scss */
+/* line 118, src/_p-styles-template.scss */
 .details-stamp p {
   display: inline-block;
   font-size: 35px;
@@ -548,11 +552,11 @@ blockquote p:after {
   position: relative;
 }
 
-/* line 127, src/_p-styles-template.scss */
+/* line 130, src/_p-styles-template.scss */
 .btn {
   margin: 200px;
 }
-/* line 130, src/_p-styles-template.scss */
+/* line 133, src/_p-styles-template.scss */
 .btn div {
   margin: 25px;
 }
