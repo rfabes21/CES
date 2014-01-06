@@ -103,9 +103,29 @@ blockquote {
 	}
 }
 
-.stamp-logo {
-	@extend .stamp;
+.stamp-logo-1 {
+	border-top: 1px solid $light-grey;
+	border-bottom: 1px solid $light-grey;
+	display: inline-block;
+	width: 158px;
+	widows: 70px;
+	position: relative;
+		
+	span {
+		@extend .ui-dolby;
 
+	}
+}
+
+.stamp-logo-2 {
+	@extend .stamp;
+	padding: 0;
+	width: 158px;
+	height: 70px;
+	
+	span {
+		@extend .ui-dts;
+	}
 }
 
 .details-stamp {
