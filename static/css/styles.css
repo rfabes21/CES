@@ -1,20 +1,27 @@
-/* line 50, sprites/ui/*.png */
-.ui-sprite, .ui-amazon, .ui-netflix {
-  background: url('/static/img/sprites/ui-s41cb24f620.png') no-repeat;
+/* line 58, sprites/ui/*.png */
+.ui-sprite, .ui-bluetooth, .stamp-logo-2 span, .ui-dolby, .stamp-logo-1 span, .ui-dts {
+  background: url('/static/img/sprites/ui-sc7fa553aed.png') no-repeat;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-amazon {
+.ui-bluetooth, .stamp-logo-2 span {
+  background-position: 0 -87px;
+  height: 72px;
+  width: 140px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-dolby, .stamp-logo-1 span {
+  background-position: 0 -174px;
+  height: 72px;
+  width: 140px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-dts, .stamp-logo-2 span {
   background-position: 0 0;
-  height: 60px;
-  width: 60px;
-}
-
-/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-netflix {
-  background-position: 0 -75px;
-  height: 61px;
-  width: 60px;
+  height: 72px;
+  width: 140px;
 }
 
 /* line 18, src/_reset.scss */
@@ -488,7 +495,7 @@ blockquote p:after {
 }
 
 /* line 80, src/_p-styles-template.scss */
-.stamp, .stamp-logo-2, .details-stamp {
+.stamp, .stamp-logo-1, .stamp-logo-2, .details-stamp {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #303030;
   display: inline-block;
@@ -498,7 +505,7 @@ blockquote p:after {
   margin: 20px;
 }
 /* line 89, src/_p-styles-template.scss */
-.stamp p, .stamp-logo-2 p, .details-stamp p {
+.stamp p, .stamp-logo-1 p, .stamp-logo-2 p, .details-stamp p {
   font-family: "Proxima N W15 Reg";
   font-size: 55px;
   color: white;
@@ -507,7 +514,7 @@ blockquote p:after {
   top: -55px;
 }
 /* line 98, src/_p-styles-template.scss */
-.stamp span, .stamp-logo-2 span, .details-stamp span {
+.stamp span, .stamp-logo-1 span, .stamp-logo-2 span, .details-stamp span {
   font-size: 14px;
   color: #bbbbbb;
   display: block;
@@ -516,35 +523,48 @@ blockquote p:after {
 
 /* line 106, src/_p-styles-template.scss */
 .stamp-logo-1 {
-  border-top: 1px solid #303030;
-  border-bottom: 1px solid #303030;
-  display: inline-block;
-  width: 158px;
-  text-align: center;
-  position: relative;
-}
-/* line 114, src/_p-styles-template.scss */
-.stamp-logo-1 .ui-dolby, .stamp-logo-1 .stamp-logo-1 {
-  position: absolute;
-  left: 25px;
-  top: 25px;
-}
-
-/* line 122, src/_p-styles-template.scss */
-.stamp-logo-2 {
-  padding: 0;
   width: 158px;
   height: 70px;
+  padding: auto;
+}
+/* line 111, src/_p-styles-template.scss */
+.stamp-logo-1 span {
+  display: inline-block;
+  margin: 0;
 }
 
-/* line 133, src/_p-styles-template.scss */
+/* line 119, src/_p-styles-template.scss */
+.stamp-logo-2 {
+  width: 158px;
+  height: 70px;
+  padding: auto;
+}
+/* line 124, src/_p-styles-template.scss */
+.stamp-logo-2 span {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 131, src/_p-styles-template.scss */
+.stamp-logo-2 {
+  width: 158px;
+  height: 70px;
+  padding: auto;
+}
+/* line 136, src/_p-styles-template.scss */
+.stamp-logo-2 span {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 143, src/_p-styles-template.scss */
 .details-stamp {
   position: relative;
   width: 125px;
   height: 90px;
   top: -100px;
 }
-/* line 140, src/_p-styles-template.scss */
+/* line 150, src/_p-styles-template.scss */
 .details-stamp p {
   display: inline-block;
   font-size: 35px;
@@ -554,11 +574,11 @@ blockquote p:after {
   position: relative;
 }
 
-/* line 152, src/_p-styles-template.scss */
+/* line 161, src/_p-styles-template.scss */
 .btn {
   margin: 200px;
 }
-/* line 155, src/_p-styles-template.scss */
+/* line 164, src/_p-styles-template.scss */
 .btn div {
   margin: 25px;
 }

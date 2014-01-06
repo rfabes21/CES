@@ -104,27 +104,39 @@ blockquote {
 }
 
 .stamp-logo-1 {
-	border-top: 1px solid $light-grey;
-	border-bottom: 1px solid $light-grey;
-	display: inline-block;
+	@extend .stamp;
 	width: 158px;
-	widows: 70px;
-	position: relative;
-		
+	height: 70px;
+	padding: auto;
 	span {
 		@extend .ui-dolby;
+		display: inline-block;
+		margin: 0;
 
 	}
 }
 
 .stamp-logo-2 {
 	@extend .stamp;
-	padding: 0;
 	width: 158px;
 	height: 70px;
-	
+	padding: auto;
 	span {
 		@extend .ui-dts;
+		display: inline-block;
+		margin: 0;
+	}
+}
+
+.stamp-logo-2 {
+	@extend .stamp;
+	width: 158px;
+	height: 70px;
+	padding: auto;
+	span {
+		@extend .ui-bluetooth;
+		display: inline-block;
+		margin: 0;
 	}
 }
 
@@ -142,7 +154,6 @@ blockquote {
 		letter-spacing: -1px;
 		position: relative;
 		top: -25px;
-		// line-height: 1.7;
 		position: relative;
 	}
 }
