@@ -1,27 +1,90 @@
-/* line 58, sprites/ui/*.png */
-.ui-sprite, .ui-bluetooth, .stamp-logo-2 span, .ui-dolby, .stamp-logo-1 span, .ui-dts {
-  background: url('/static/img/sprites/ui-sc7fa553aed.png') no-repeat;
+/* line 130, sprites/ui/*.png */
+.ui-sprite, .ui-bluetooth, .ui-dolby, .ui-dts, .ui-icon-e-series, .ui-icon-m-series, .ui-icon-p-series, .ui-icon-ref-series, .ui-icon-smartaudio, .ui-icon-soundbar, .ui-icon-soundbase, .ui-icon-viaplus, .ui-vizio-logo {
+  background: url('/static/img/sprites/ui-s87b26ee39b.png') no-repeat;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-bluetooth, .stamp-logo-2 span {
+.ui-bluetooth {
   background-position: 0 -87px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-dolby, .stamp-logo-1 span {
+.ui-dolby {
   background-position: 0 -174px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-dts, .stamp-logo-2 span {
+.ui-dts {
   background-position: 0 0;
   height: 72px;
   width: 140px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-e-series {
+  background-position: 0 -645px;
+  height: 32px;
+  width: 44px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-m-series {
+  background-position: 0 -499px;
+  height: 38px;
+  width: 46px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-p-series {
+  background-position: 0 -552px;
+  height: 38px;
+  width: 48px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-ref-series {
+  background-position: 0 -443px;
+  height: 41px;
+  width: 52px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-smartaudio {
+  background-position: 0 -605px;
+  height: 25px;
+  width: 47px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-soundbar {
+  background-position: 0 -397px;
+  height: 31px;
+  width: 57px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-soundbase {
+  background-position: 0 -353px;
+  height: 29px;
+  width: 45px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-icon-viaplus {
+  background-position: 0 -300px;
+  height: 38px;
+  width: 51px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-vizio-logo {
+  background-position: 0 -261px;
+  height: 24px;
+  width: 100px;
 }
 
 /* line 18, src/_reset.scss */
@@ -414,171 +477,4 @@ button:focus {
   width: 188px;
   height: 46px;
   margin: 10px;
-}
-
-/* line 4, src/_p-styles-template.scss */
-.info {
-  color: #bbbbbb;
-}
-/* line 7, src/_p-styles-template.scss */
-.info > div {
-  margin: 40px;
-}
-/* line 10, src/_p-styles-template.scss */
-.info .main-info {
-  width: 650px;
-  line-height: 30px;
-  font-weight: 100;
-  margin: auto;
-}
-/* line 17, src/_p-styles-template.scss */
-.info .details {
-  width: 285px;
-  font-size: 16px;
-  font-weight: 100;
-  text-align: left;
-  line-height: 25px;
-  margin: 40px;
-  position: relative;
-  display: inline-block;
-}
-/* line 27, src/_p-styles-template.scss */
-.info .details span {
-  font-size: 25px;
-  line-height: 25px;
-  display: block;
-  margin-bottom: 20px;
-  line-height: 30px;
-}
-
-/* line 37, src/_p-styles-template.scss */
-blockquote {
-  width: 569px;
-  margin: auto;
-  text-align: justify;
-  position: relative;
-  quotes: "“" "”" "‘" "’";
-}
-/* line 44, src/_p-styles-template.scss */
-blockquote:before {
-  content: open-quote;
-  position: absolute;
-  color: #303030;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: timesNewRoman;
-  left: -35px;
-  top: -7px;
-}
-/* line 56, src/_p-styles-template.scss */
-blockquote p {
-  line-height: 40px;
-  font-size: 18px;
-  font-weight: 100;
-  font-family: "Proxima N W15 Reg";
-  color: #bbbbbb;
-  border-bottom: 1px solid #303030;
-  padding-bottom: 10px;
-  display: inline;
-  position: relative;
-}
-/* line 67, src/_p-styles-template.scss */
-blockquote p:after {
-  content: close-quote;
-  position: absolute;
-  color: #303030;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: timesNewRoman;
-  right: -35px;
-  bottom: -7px;
-}
-
-/* line 80, src/_p-styles-template.scss */
-.stamp, .stamp-logo-1, .stamp-logo-2, .details-stamp {
-  border-top: 1px solid #303030;
-  border-bottom: 1px solid #303030;
-  display: inline-block;
-  width: 200px;
-  height: 80px;
-  padding: 20px;
-  margin: 20px;
-}
-/* line 89, src/_p-styles-template.scss */
-.stamp p, .stamp-logo-1 p, .stamp-logo-2 p, .details-stamp p {
-  font-family: "Proxima N W15 Reg";
-  font-size: 55px;
-  color: white;
-  letter-spacing: -1px;
-  position: relative;
-  top: -55px;
-}
-/* line 98, src/_p-styles-template.scss */
-.stamp span, .stamp-logo-1 span, .stamp-logo-2 span, .details-stamp span {
-  font-size: 14px;
-  color: #bbbbbb;
-  display: block;
-  margin-top: 0;
-}
-
-/* line 106, src/_p-styles-template.scss */
-.stamp-logo-1 {
-  width: 158px;
-  height: 70px;
-  padding: auto;
-}
-/* line 111, src/_p-styles-template.scss */
-.stamp-logo-1 span {
-  display: inline-block;
-  margin: 0;
-}
-
-/* line 119, src/_p-styles-template.scss */
-.stamp-logo-2 {
-  width: 158px;
-  height: 70px;
-  padding: auto;
-}
-/* line 124, src/_p-styles-template.scss */
-.stamp-logo-2 span {
-  display: inline-block;
-  margin: 0;
-}
-
-/* line 131, src/_p-styles-template.scss */
-.stamp-logo-2 {
-  width: 158px;
-  height: 70px;
-  padding: auto;
-}
-/* line 136, src/_p-styles-template.scss */
-.stamp-logo-2 span {
-  display: inline-block;
-  margin: 0;
-}
-
-/* line 143, src/_p-styles-template.scss */
-.details-stamp {
-  position: relative;
-  width: 125px;
-  height: 90px;
-  top: -100px;
-}
-/* line 150, src/_p-styles-template.scss */
-.details-stamp p {
-  display: inline-block;
-  font-size: 35px;
-  letter-spacing: -1px;
-  position: relative;
-  top: -25px;
-  position: relative;
-}
-
-/* line 161, src/_p-styles-template.scss */
-.btn {
-  margin: 200px;
-}
-/* line 164, src/_p-styles-template.scss */
-.btn div {
-  margin: 25px;
 }
