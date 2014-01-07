@@ -1,24 +1,24 @@
 /* line 130, sprites/ui/*.png */
-.ui-sprite, .ui-bluetooth, .ui-dolby, .ui-dts, .ui-icon-e-series, .ui-icon-m-series, .ui-icon-p-series, .ui-icon-ref-series, .ui-icon-smartaudio, .ui-icon-soundbar, .ui-icon-soundbase, .ui-icon-viaplus, .ui-vizio-logo {
+.ui-sprite, .ui-bluetooth, .stamp-logo-2 span, .ui-dolby, .stamp-logo-1 span, .ui-dts, .ui-icon-e-series, .ui-icon-m-series, .ui-icon-p-series, .ui-icon-ref-series, .ui-icon-smartaudio, .ui-icon-soundbar, .ui-icon-soundbase, .ui-icon-viaplus, .ui-vizio-logo, .global-nav-wrapper .mainlogo {
   background: url('/static/img/sprites/ui-s87b26ee39b.png') no-repeat;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-bluetooth {
+.ui-bluetooth, .stamp-logo-2 span {
   background-position: 0 -87px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-dolby {
+.ui-dolby, .stamp-logo-1 span {
   background-position: 0 -174px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-dts {
+.ui-dts, .stamp-logo-2 span {
   background-position: 0 0;
   height: 72px;
   width: 140px;
@@ -81,7 +81,7 @@
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.ui-vizio-logo {
+.ui-vizio-logo, .global-nav-wrapper .mainlogo {
   background-position: 0 -261px;
   height: 24px;
   width: 100px;
@@ -288,21 +288,17 @@ body {
   line-height: 1.2;
   color: white;
   background-color: black;
-}
-
-/* line 25, src/_scaffolding.scss */
-.content {
   text-align: center;
 }
 
-/* line 33, src/_scaffolding.scss */
+/* line 29, src/_scaffolding.scss */
 .embed-container {
   position: relative;
   height: 0;
   padding-bottom: 56.25%;
   overflow: hidden;
 }
-/* line 38, src/_scaffolding.scss */
+/* line 34, src/_scaffolding.scss */
 .embed-container iframe, .embed-container object, .embed-container embed, .embed-container video {
   position: absolute;
   top: 0;
@@ -327,29 +323,30 @@ p {
   margin: 0 0 0.6;
   font-family: "Proxima N W15 Reg";
   font-size: 20px;
+  position: relative;
 }
 
-/* line 28, src/_type.scss */
+/* line 29, src/_type.scss */
 small {
   font-size: 85%;
 }
 
-/* line 29, src/_type.scss */
+/* line 30, src/_type.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 30, src/_type.scss */
+/* line 31, src/_type.scss */
 em {
   font-style: italic;
 }
 
-/* line 31, src/_type.scss */
+/* line 32, src/_type.scss */
 cite {
   font-style: normal;
 }
 
-/* line 36, src/_type.scss */
+/* line 37, src/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0.6 0;
   line-height: 1;
@@ -357,28 +354,33 @@ h1, h2, h3, h4, h5, h6 {
   text-spacing: 10;
 }
 
-/* line 43, src/_type.scss */
+/* line 44, src/_type.scss */
 h1 {
   font-size: 65px;
   line-height: 40px;
+  position: relative;
+  top: 200px;
   color: white;
   font-family: "Proxima N W15 Smbd";
-  margin: 25% 0 40px 0;
+  margin: 0;
+  text-align: center;
 }
 
-/* line 51, src/_type.scss */
+/* line 55, src/_type.scss */
 h2 {
   font-size: 64px;
   line-height: 50px;
   color: white;
+  position: relative;
+  top: 300px;
   font-family: "Proxima N W01 Thin Reg";
   text-transform: uppercase;
   font-weight: 100;
-  margin: 25% 0 40px 0;
+  margin: 0;
   letter-spacing: 1.5px;
 }
 
-/* line 62, src/_type.scss */
+/* line 68, src/_type.scss */
 h3 {
   font-size: 55px;
   line-height: 55px;
@@ -389,19 +391,21 @@ h3 {
   letter-spacing: 1.5px;
 }
 
-/* line 72, src/_type.scss */
+/* line 78, src/_type.scss */
 h4 {
   font-size: 40px;
   line-height: 40px;
   color: #ac3322;
+  position: relative;
+  top: 320px;
   font-family: "Proxima N W01 Thin Reg";
   font-weight: 100;
   padding: 0;
-  margin: 5px 0 20px 0;
+  margin: 0;
   letter-spacing: 1.5px;
 }
 
-/* line 83, src/_type.scss */
+/* line 91, src/_type.scss */
 h5 {
   font-size: 36px;
   line-height: 36px;
@@ -409,17 +413,20 @@ h5 {
   font-family: "Proxima N W01 Thin Reg";
   font-weight: 100;
   padding: 0;
-  margin: 20px 0 20px 0;
+  margin: 60px 0 25px 0;
   letter-spacing: 1.5px;
 }
 
-/* line 94, src/_type.scss */
+/* line 102, src/_type.scss */
 h6 {
-  font-size: 14px;
+  font-family: "Proxima N W15 Reg";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #303030;
   line-height: 20px;
 }
 
-/* line 99, src/_type.scss */
+/* line 111, src/_type.scss */
 hr {
   margin: 1.2 0;
   height: 2px;
@@ -429,7 +436,7 @@ hr {
   border-bottom: 1px solid white;
 }
 
-/* line 109, src/_type.scss */
+/* line 121, src/_type.scss */
 address {
   display: block;
   margin-bottom: 1.2;
@@ -477,4 +484,272 @@ button:focus {
   width: 188px;
   height: 46px;
   margin: 10px;
+}
+
+/* line 4, src/_p-styles-template.scss */
+.series-wrapper {
+  color: #bbbbbb;
+}
+/* line 8, src/_p-styles-template.scss */
+.series-wrapper .series-info {
+  width: 600px;
+  line-height: 30px;
+  font-weight: 100;
+  margin: auto;
+}
+/* line 15, src/_p-styles-template.scss */
+.series-wrapper .details {
+  width: 285px;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: left;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+}
+/* line 26, src/_p-styles-template.scss */
+.series-wrapper .details span {
+  font-size: 25px;
+  line-height: 25px;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+/* line 36, src/_p-styles-template.scss */
+blockquote {
+  width: 569px;
+  margin: auto;
+  text-align: justify;
+  position: relative;
+  quotes: "“" "”" "‘" "’";
+}
+/* line 43, src/_p-styles-template.scss */
+blockquote:before {
+  content: open-quote;
+  position: absolute;
+  color: #303030;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: timesNewRoman;
+  left: -35px;
+  top: -7px;
+}
+/* line 55, src/_p-styles-template.scss */
+blockquote p {
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Proxima N W15 Reg";
+  color: #bbbbbb;
+  border-bottom: 1px solid #303030;
+  padding-bottom: 10px;
+  display: inline;
+  position: relative;
+}
+/* line 66, src/_p-styles-template.scss */
+blockquote p:after {
+  content: close-quote;
+  position: absolute;
+  color: #303030;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: timesNewRoman;
+  right: -35px;
+  bottom: -7px;
+}
+
+/* line 79, src/_p-styles-template.scss */
+.stamp, .stamp-logo-1, .stamp-logo-2, .details-stamp {
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  padding: 20px;
+  margin: 20px;
+}
+/* line 88, src/_p-styles-template.scss */
+.stamp p, .stamp-logo-1 p, .stamp-logo-2 p, .details-stamp p {
+  font-family: "Proxima N W15 Reg";
+  font-size: 55px;
+  color: white;
+  letter-spacing: -1px;
+  position: relative;
+  top: -55px;
+}
+/* line 97, src/_p-styles-template.scss */
+.stamp span, .stamp-logo-1 span, .stamp-logo-2 span, .details-stamp span {
+  font-size: 14px;
+  color: #bbbbbb;
+  display: block;
+  margin-top: 0;
+}
+
+/* line 105, src/_p-styles-template.scss */
+.stamp-logo-1 {
+  width: 158px;
+  height: 70px;
+  padding: auto;
+}
+/* line 110, src/_p-styles-template.scss */
+.stamp-logo-1 span {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 118, src/_p-styles-template.scss */
+.stamp-logo-2 {
+  width: 158px;
+  height: 70px;
+  padding: auto;
+}
+/* line 123, src/_p-styles-template.scss */
+.stamp-logo-2 span {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 130, src/_p-styles-template.scss */
+.stamp-logo-2 {
+  width: 158px;
+  height: 70px;
+  padding: auto;
+}
+/* line 135, src/_p-styles-template.scss */
+.stamp-logo-2 span {
+  display: inline-block;
+  margin: 0;
+}
+
+/* line 142, src/_p-styles-template.scss */
+.details-stamp {
+  position: relative;
+  width: 125px;
+  height: 90px;
+  top: -100px;
+}
+/* line 149, src/_p-styles-template.scss */
+.details-stamp p {
+  display: inline-block;
+  font-size: 35px;
+  letter-spacing: -1px;
+  position: relative;
+  top: -25px;
+}
+
+/* line 159, src/_p-styles-template.scss */
+.btn {
+  margin: 200px;
+}
+/* line 162, src/_p-styles-template.scss */
+.btn div {
+  margin: 25px;
+}
+
+/* line 6, src/_page-home.scss */
+.global-nav-wrapper {
+  height: 550px;
+  width: 100%;
+  background-image: url("/static/img/showfloor.png");
+  background-size: 100%;
+}
+/* line 12, src/_page-home.scss */
+.global-nav-wrapper .mainlogo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+/* line 19, src/_page-home.scss */
+.global-nav-wrapper p {
+  text-transform: uppercase;
+  font-family: "Proxima N W01 Thin Reg";
+  font-weight: 100;
+  font-size: 30px;
+  margin-top: -20px;
+  word-spacing: 2.5px;
+  position: relative;
+  top: 235px;
+}
+/* line 30, src/_page-home.scss */
+.global-nav-wrapper nav {
+  position: relative;
+  top: 300px;
+}
+/* line 34, src/_page-home.scss */
+.global-nav-wrapper nav li {
+  display: inline-block;
+  margin: 17px;
+  text-transform: uppercase;
+}
+/* line 39, src/_page-home.scss */
+.global-nav-wrapper nav li:last-child span {
+  width: 100px;
+  text-align: center;
+  margin: auto;
+}
+/* line 44, src/_page-home.scss */
+.global-nav-wrapper nav li .ui-icon-viaplus {
+  position: relative;
+  left: 25%;
+}
+/* line 51, src/_page-home.scss */
+.global-nav-wrapper nav span {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+/* line 57, src/_page-home.scss */
+.global-nav-wrapper nav .navbar-undertitle {
+  width: 69px;
+  position: relative;
+  top: 15px;
+}
+
+/* line 68, src/_page-home.scss */
+.reference-series {
+  height: 960px;
+  width: 100%;
+  margin: 0;
+  background-image: url("/static/img/reference-hero.png");
+  background-size: 100%;
+  position: relative;
+}
+/* line 76, src/_page-home.scss */
+.reference-series .series-info {
+  top: 325px;
+}
+
+/* line 82, src/_page-home.scss */
+.references-series-details {
+  height: 1806px;
+  width: 100%;
+  background-image: url("/static/img/reference-hero2.png");
+  background-size: 100%;
+}
+/* line 88, src/_page-home.scss */
+.references-series-details .series-info {
+  font-size: 21px;
+}
+/* line 92, src/_page-home.scss */
+.references-series-details .title {
+  position: relative;
+  top: 60px;
+}
+/* line 97, src/_page-home.scss */
+.references-series-details .main-details {
+  position: relative;
+  top: 700px;
+  width: 1100px;
+  margin: auto;
+}
+/* line 104, src/_page-home.scss */
+.references-series-details .details-wrapper {
+  display: block;
+  height: 350px;
+  position: relative;
+  margin: 10px;
+  float: left;
 }

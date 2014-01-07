@@ -1,3 +1,112 @@
 //
 // Page - Home
 // --------------------------------------------------
+
+//Global nav
+.global-nav-wrapper {
+	height: 550px;
+	width: 100%;
+	background-image: url('/static/img/showfloor.png');
+	background-size: 100%;
+
+	.mainlogo{
+		@extend .ui-vizio-logo;
+		position: absolute;
+		top: 40px;
+		left: 40px;
+	}
+	
+	p {
+		text-transform: uppercase;
+		font-family: $ProximaThin;
+		font-weight: 100;
+		font-size: 30px;
+		margin-top: -20px;
+		word-spacing: 2.5px;
+		position: relative;
+		top: 235px;
+	}
+	
+	nav {
+		position: relative;
+		top: 300px;
+
+		li {
+		display: inline-block;
+		margin: 17px;
+		text-transform: uppercase;
+		
+		&:last-child span {
+				width: 100px;
+				text-align: center;
+				margin: auto;
+			}
+		.ui-icon-viaplus{
+			position: relative;
+			left: 25%;
+
+			}
+		}
+			
+		span {
+			display: block;
+			margin: auto;
+			position: relative;
+		}
+
+		.navbar-undertitle {
+			width: 69px;
+			position: relative;
+			top: 15px;
+			
+			
+		}
+	}
+}
+
+// Main content
+.reference-series {
+	height: 960px;
+	width: 100%;
+	margin: 0;
+	background-image: url('/static/img/reference-hero.png');
+	background-size: 100%;
+	position: relative;
+
+	.series-info {
+		top: 325px;
+	}
+
+}
+
+.references-series-details {
+	height: 1806px;
+	width: 100%;
+	background-image: url('/static/img/reference-hero2.png');
+	background-size: 100%;
+
+	.series-info {
+		font-size: 21px;
+	}
+
+	.title {
+		position: relative;
+		top: 60px;
+	}
+	
+	.main-details {
+		position: relative;
+		top: 700px;
+		width: 1100px;
+		margin: auto;
+	}
+	
+	.details-wrapper {
+		display: block;
+		height: 350px;
+		position: relative;
+		margin: 10px;
+		float: left;
+
+	}
+}

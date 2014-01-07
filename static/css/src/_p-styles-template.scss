@@ -1,14 +1,12 @@
 //
 // Styles Page Specific
 
-.info {
+.series-wrapper {
 	color: $lighter-grey;
-	
-	>div {
-		margin: 40px;
-	}
-	.main-info {
-	width: 650px;
+
+
+	.series-info {
+	width: 600px;
 	line-height: 30px;
 	font-weight: 100;
 	margin: auto;
@@ -20,7 +18,8 @@
 	font-weight: 100;
 	text-align: left;
 	line-height: 25px;
-	margin: 40px;
+	margin: 0;
+	padding: 0;
 	position: relative;
 	display: inline-block;
 		
@@ -154,7 +153,6 @@ blockquote {
 		letter-spacing: -1px;
 		position: relative;
 		top: -25px;
-		position: relative;
 	}
 }
 

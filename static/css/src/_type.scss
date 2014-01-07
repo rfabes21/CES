@@ -19,6 +19,7 @@ p {
     margin: 0 0 $baseLineHeight / 2;
     font-family: $ProximaRegular;
     font-size: 20px;
+    position: relative;
 
 }
 
@@ -43,19 +44,24 @@ h1, h2, h3, h4, h5, h6 {
 h1 {    
     font-size: 65px; 
     line-height: 40px;
+    position: relative;
+    top: 200px;
     color: $white;
     font-family: $ProximaSemiBold;
-    margin: 25% 0 40px 0;
+    margin: 0;
+    text-align: center;
 
 }
 h2 { 
     font-size: 64px; 
     line-height: 50px;
     color: $white;
+    position: relative;
+    top: 300px;
     font-family: $ProximaThin;
     text-transform: uppercase;
     font-weight: $headingsFontWeight;
-    margin: 25% 0 40px 0;  
+    margin: 0;  
     letter-spacing: $headingsLetterSpacing;
 }
 
@@ -73,10 +79,12 @@ h4 {
     font-size: 40px;
     line-height: 40px;
     color: $red;
+    position: relative;
+    top: 320px;
     font-family: $ProximaThin;
     font-weight: $headingsFontWeight;
     padding: 0;
-    margin: 5px 0 20px 0;
+    margin: 0;
     letter-spacing: $headingsLetterSpacing;
 }
 
@@ -87,13 +95,17 @@ h5 {
     font-family: $ProximaThin;
     font-weight: $headingsFontWeight;
     padding: 0;
-    margin: 20px 0 20px 0;
+    margin: 60px 0 25px 0;
     letter-spacing: $headingsLetterSpacing;
 }
 
 h6 { 
-    font-size: 14px; 
-    line-height: 20px; }
+    font-family: $ProximaRegular;
+    font-size: 16px; 
+    text-transform: uppercase;
+    color: $light-grey;
+    line-height: 20px; 
+}
 
 // Horizontal rules
 hr {
