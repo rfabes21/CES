@@ -424,9 +424,10 @@ h6 {
   text-transform: uppercase;
   color: #303030;
   line-height: 20px;
+  margin: 0;
 }
 
-/* line 111, src/_type.scss */
+/* line 112, src/_type.scss */
 hr {
   margin: 1.2 0;
   height: 2px;
@@ -436,7 +437,7 @@ hr {
   border-bottom: 1px solid white;
 }
 
-/* line 121, src/_type.scss */
+/* line 122, src/_type.scss */
 address {
   display: block;
   margin-bottom: 1.2;
@@ -762,13 +763,15 @@ blockquote p:after {
   margin: 10px;
   float: left;
 }
-/* line 116, src/_page-home.scss */
-.references-series-details .performance-wrapper {
+
+/* line 117, src/_page-home.scss */
+.performance-wrapper {
   background-color: #131313;
   height: 735px;
 }
-/* line 123, src/_page-home.scss */
-.references-series-details .performance-info aside {
+
+/* line 124, src/_page-home.scss */
+.performance-info aside {
   text-align: left;
   width: 500px;
   padding: 0;
@@ -777,18 +780,19 @@ blockquote p:after {
   top: 150px;
   left: 200px;
 }
-/* line 132, src/_page-home.scss */
-.references-series-details .performance-info aside p {
+/* line 133, src/_page-home.scss */
+.performance-info aside p {
   width: 400px;
   font-size: 16px;
 }
-/* line 138, src/_page-home.scss */
-.references-series-details .performance-info h5 {
+/* line 139, src/_page-home.scss */
+.performance-info h5 {
   top: 0;
   margin: 0;
 }
-/* line 144, src/_page-home.scss */
-.references-series-details .speed-graph {
+
+/* line 145, src/_page-home.scss */
+.speed-graph {
   height: 170px;
   width: 440px;
   border-top: 1px solid #303030;
@@ -796,8 +800,8 @@ blockquote p:after {
   position: relative;
   left: 750px;
 }
-/* line 152, src/_page-home.scss */
-.references-series-details .speed-graph p {
+/* line 153, src/_page-home.scss */
+.speed-graph p {
   font-size: 30px;
   width: 40px;
   position: relative;
@@ -806,8 +810,8 @@ blockquote p:after {
   font-family: "Proxima N W01 Thin Reg";
   margin: 0;
 }
-/* line 163, src/_page-home.scss */
-.references-series-details .speed-graph .faster {
+/* line 164, src/_page-home.scss */
+.speed-graph .faster {
   width: 300px;
   border-top: 4px solid #ac3322;
   position: relative;
@@ -816,27 +820,42 @@ blockquote p:after {
   margin-bottom: 20px;
   color: #ac3322;
 }
-/* line 173, src/_page-home.scss */
-.references-series-details .speed-graph .slower {
+/* line 174, src/_page-home.scss */
+.speed-graph .slower {
   width: 300px;
   border-top: 4px solid #bbbbbb;
   position: relative;
   left: 105px;
   top: 15px;
 }
-/* line 181, src/_page-home.scss */
-.references-series-details .speed-graph span {
+/* line 182, src/_page-home.scss */
+.speed-graph span {
   font-size: 13px;
   font-family: "Proxima N W15 Smbd";
   text-transform: uppercase;
 }
-/* line 187, src/_page-home.scss */
-.references-series-details .speed-graph .left {
+/* line 188, src/_page-home.scss */
+.speed-graph .left {
   float: left;
   margin-top: 10px;
 }
-/* line 192, src/_page-home.scss */
-.references-series-details .speed-graph .right {
+/* line 193, src/_page-home.scss */
+.speed-graph .right {
   float: right;
   margin-top: 10px;
+}
+
+/* line 199, src/_page-home.scss */
+.audio {
+  height: 1050px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 205, src/_page-home.scss */
+.audio .title-wrapper {
+  background-image: url("/static/img/reference-hero3.png");
+  background-size: 100%;
+  height: 500px;
+  width: 100%;
 }
