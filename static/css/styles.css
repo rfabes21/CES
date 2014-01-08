@@ -637,14 +637,18 @@ blockquote p:after {
   font-size: 35px;
   letter-spacing: -1px;
   position: relative;
-  top: -25px;
+  top: -20px;
+}
+/* line 157, src/_p-styles-template.scss */
+.details-stamp p:last-child {
+  left: -10px;
 }
 
-/* line 159, src/_p-styles-template.scss */
+/* line 163, src/_p-styles-template.scss */
 .btn {
   margin: 200px;
 }
-/* line 162, src/_p-styles-template.scss */
+/* line 166, src/_p-styles-template.scss */
 .btn div {
   margin: 25px;
 }
@@ -739,17 +743,27 @@ blockquote p:after {
   top: 60px;
 }
 /* line 97, src/_page-home.scss */
+.references-series-details .splitter {
+  height: 700px;
+  width: 100%;
+}
+/* line 102, src/_page-home.scss */
 .references-series-details .main-details {
-  position: relative;
-  top: 700px;
   width: 1100px;
   margin: auto;
+  overflow: hidden;
+  *zoom: 1;
 }
-/* line 104, src/_page-home.scss */
+/* line 108, src/_page-home.scss */
 .references-series-details .details-wrapper {
-  display: block;
+  display: inline-block;
   height: 350px;
   position: relative;
   margin: 10px;
   float: left;
+}
+/* line 117, src/_page-home.scss */
+.references-series-details .performance-wrapper {
+  background-color: #131313;
+  height: 735px;
 }

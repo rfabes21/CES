@@ -145,14 +145,18 @@ blockquote {
 	width: 125px;
 	height: 90px;
 	top: -100px;
-
+			
 	p {
 		
 		display: inline-block;
 		font-size: 35px;
 		letter-spacing: -1px;
 		position: relative;
-		top: -25px;
+		top: -20px;
+		
+		&:last-child {
+			left: -10px;
+		}
 	}
 }
 
