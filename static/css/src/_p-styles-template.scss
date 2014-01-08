@@ -141,10 +141,11 @@ blockquote {
 
 .details-stamp {
 	@extend .stamp;
+	float: right;
 	position: relative;
 	width: 125px;
 	height: 90px;
-	top: -100px;
+	top: 65px;
 			
 	p {
 		

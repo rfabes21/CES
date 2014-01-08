@@ -626,12 +626,13 @@ blockquote p:after {
 
 /* line 142, src/_p-styles-template.scss */
 .details-stamp {
+  float: right;
   position: relative;
   width: 125px;
   height: 90px;
-  top: -100px;
+  top: 65px;
 }
-/* line 149, src/_p-styles-template.scss */
+/* line 150, src/_p-styles-template.scss */
 .details-stamp p {
   display: inline-block;
   font-size: 35px;
@@ -639,16 +640,16 @@ blockquote p:after {
   position: relative;
   top: -20px;
 }
-/* line 157, src/_p-styles-template.scss */
+/* line 158, src/_p-styles-template.scss */
 .details-stamp p:last-child {
   left: -10px;
 }
 
-/* line 163, src/_p-styles-template.scss */
+/* line 164, src/_p-styles-template.scss */
 .btn {
   margin: 200px;
 }
-/* line 166, src/_p-styles-template.scss */
+/* line 167, src/_p-styles-template.scss */
 .btn div {
   margin: 25px;
 }
@@ -756,14 +757,86 @@ blockquote p:after {
 }
 /* line 108, src/_page-home.scss */
 .references-series-details .details-wrapper {
-  display: inline-block;
   height: 350px;
-  position: relative;
+  width: 500px;
   margin: 10px;
   float: left;
 }
-/* line 117, src/_page-home.scss */
+/* line 116, src/_page-home.scss */
 .references-series-details .performance-wrapper {
   background-color: #131313;
   height: 735px;
+}
+/* line 123, src/_page-home.scss */
+.references-series-details .performance-info aside {
+  text-align: left;
+  width: 500px;
+  padding: 0;
+  margin: 20px;
+  position: relative;
+  top: 150px;
+  left: 200px;
+}
+/* line 132, src/_page-home.scss */
+.references-series-details .performance-info aside p {
+  width: 400px;
+  font-size: 16px;
+}
+/* line 138, src/_page-home.scss */
+.references-series-details .performance-info h5 {
+  top: 0;
+  margin: 0;
+}
+/* line 144, src/_page-home.scss */
+.references-series-details .speed-graph {
+  height: 170px;
+  width: 440px;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  position: relative;
+  left: 750px;
+}
+/* line 152, src/_page-home.scss */
+.references-series-details .speed-graph p {
+  font-size: 30px;
+  width: 40px;
+  position: relative;
+  top: 45px;
+  left: 25px;
+  font-family: "Proxima N W01 Thin Reg";
+  margin: 0;
+}
+/* line 163, src/_page-home.scss */
+.references-series-details .speed-graph .faster {
+  width: 300px;
+  border-top: 4px solid #ac3322;
+  position: relative;
+  left: 105px;
+  top: 15px;
+  margin-bottom: 20px;
+  color: #ac3322;
+}
+/* line 173, src/_page-home.scss */
+.references-series-details .speed-graph .slower {
+  width: 300px;
+  border-top: 4px solid #bbbbbb;
+  position: relative;
+  left: 105px;
+  top: 15px;
+}
+/* line 181, src/_page-home.scss */
+.references-series-details .speed-graph span {
+  font-size: 13px;
+  font-family: "Proxima N W15 Smbd";
+  text-transform: uppercase;
+}
+/* line 187, src/_page-home.scss */
+.references-series-details .speed-graph .left {
+  float: left;
+  margin-top: 10px;
+}
+/* line 192, src/_page-home.scss */
+.references-series-details .speed-graph .right {
+  float: right;
+  margin-top: 10px;
 }
