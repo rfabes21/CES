@@ -1,88 +1,165 @@
-/* line 130, sprites/ui/*.png */
-.ui-sprite, .ui-bluetooth, .stamp-logo-3 span, .ui-dolby, .stamp-logo-1 span, .ui-dts, .stamp-logo-2 span, .ui-icon-e-series, .ui-icon-m-series, .ui-icon-p-series, .ui-icon-ref-series, .ui-icon-smartaudio, .ui-icon-soundbar, .ui-icon-soundbase, .ui-icon-viaplus, .ui-vizio-logo, .global-nav-wrapper .mainlogo {
-  background: url('/static/img/sprites/ui-s87b26ee39b.png') no-repeat;
+/* line 218, sprites/ui/*.png */
+.ui-sprite, .ui-app-amazon, .ui-app-facebook, .ui-app-huluplus, .ui-app-iheart, .ui-app-netflix, .ui-app-pandora, .ui-app-spotify, .ui-app-twitter, .ui-app-whitebg, .ui-app-yahoo, .ui-app-youtube, .ui-bluetooth, .stamp-logo-3 span, .ui-dolby, .stamp-logo-1 span, .ui-dts, .stamp-logo-2 span, .ui-icon-e-series, .ui-icon-m-series, .ui-icon-p-series, .ui-icon-ref-series, .ui-icon-smartaudio, .ui-icon-soundbar, .ui-icon-soundbase, .ui-icon-viaplus, .ui-vizio-logo, .global-nav-wrapper .mainlogo {
+  background: url('/static/img/sprites/ui-se28c9b4e51.png') no-repeat;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-amazon {
+  background-position: 0 0;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-facebook {
+  background-position: 0 -463px;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-huluplus {
+  background-position: 0 -75px;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-iheart {
+  background-position: 0 -613px;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-netflix {
+  background-position: 0 -237px;
+  height: 61px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-pandora {
+  background-position: 0 -388px;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-spotify {
+  background-position: 0 -538px;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-twitter {
+  background-position: 0 -937px;
+  height: 61px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-whitebg {
+  background-position: 0 -1195px;
+  height: 61px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-yahoo {
+  background-position: 0 -775px;
+  height: 60px;
+  width: 60px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.ui-app-youtube {
+  background-position: 0 -313px;
+  height: 60px;
+  width: 60px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-bluetooth, .stamp-logo-3 span {
-  background-position: 0 -87px;
+  background-position: 0 -688px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-dolby, .stamp-logo-1 span {
-  background-position: 0 -174px;
+  background-position: 0 -850px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-dts, .stamp-logo-2 span {
-  background-position: 0 0;
+  background-position: 0 -150px;
   height: 72px;
   width: 140px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-e-series {
-  background-position: 0 -645px;
+  background-position: 0 -1473px;
   height: 32px;
   width: 44px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-m-series {
-  background-position: 0 -499px;
+  background-position: 0 -1327px;
   height: 38px;
   width: 46px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-p-series {
-  background-position: 0 -552px;
+  background-position: 0 -1380px;
   height: 38px;
   width: 48px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-ref-series {
-  background-position: 0 -443px;
+  background-position: 0 -1271px;
   height: 41px;
   width: 52px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-smartaudio {
-  background-position: 0 -605px;
+  background-position: 0 -1433px;
   height: 25px;
   width: 47px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-soundbar {
-  background-position: 0 -397px;
+  background-position: 0 -1149px;
   height: 31px;
   width: 57px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-soundbase {
-  background-position: 0 -353px;
+  background-position: 0 -1105px;
   height: 29px;
   width: 45px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-icon-viaplus {
-  background-position: 0 -300px;
+  background-position: 0 -1052px;
   height: 38px;
   width: 51px;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .ui-vizio-logo, .global-nav-wrapper .mainlogo {
-  background-position: 0 -261px;
+  background-position: 0 -1013px;
   height: 24px;
   width: 100px;
 }
@@ -648,9 +725,14 @@ blockquote p:after {
 
 /* line 164, src/_p-styles-template.scss */
 .btn {
-  margin: 200px;
+  width: 100%;
 }
 /* line 167, src/_p-styles-template.scss */
+.btn .btn-large {
+  display: block;
+  margin: auto auto 100px auto;
+}
+/* line 172, src/_p-styles-template.scss */
 .btn div {
   margin: 25px;
 }
@@ -716,7 +798,7 @@ blockquote p:after {
 
 /* line 68, src/_page-home.scss */
 .reference-series {
-  height: 960px;
+  height: 948px;
   width: 100%;
   margin: 0;
   background-image: url("/static/img/reference-hero.png");
@@ -881,5 +963,31 @@ blockquote p:after {
 }
 /* line 230, src/_page-home.scss */
 .viaplus-wrapper h5 {
-  margin-top: 120px;
+  padding-top: 60px;
+}
+/* line 234, src/_page-home.scss */
+.viaplus-wrapper .viaplus-info {
+  width: 600px;
+  margin: auto;
+  font-size: 16px;
+}
+
+/* line 242, src/_page-home.scss */
+.app-icon-wrapper {
+  height: 200px;
+}
+/* line 245, src/_page-home.scss */
+.app-icon-wrapper div {
+  display: inline-block;
+  margin: 4px;
+  position: relative;
+  top: 70px;
+}
+
+/* line 253, src/_page-home.scss */
+.viaplus-splitpic {
+  height: 315px;
+  width: 100%;
+  background-image: url("/static/img/reference-hero4.png");
+  background-size: 100%;
 }

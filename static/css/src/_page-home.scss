@@ -66,7 +66,7 @@
 
 // Main content
 .reference-series {
-	height: 960px;
+	height: 948px;
 	width: 100%;
 	margin: 0;
 	background-image: url('/static/img/reference-hero.png');
@@ -226,8 +226,33 @@
 
 .viaplus-wrapper {
 	background-color: $greyBackground;
-
+	
 	h5 {
-		margin-top: 120px;
+		padding-top: 60px;
 	}
+
+	.viaplus-info {
+		width: 600px;
+		margin: auto;
+		font-size: 16px;
+	}
+
+}
+
+.app-icon-wrapper {
+	height: 200px;
+
+	div {
+		display: inline-block;
+		margin: 4px;
+		position: relative;
+		top: 70px;
+	}
+}
+
+.viaplus-splitpic {
+	height: 315px;
+	width: 100%;
+	background-image: url('/static/img/reference-hero4.png');
+	background-size: 100%;
 }
