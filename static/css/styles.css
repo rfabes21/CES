@@ -828,7 +828,7 @@ blockquote p:after {
 }
 /* line 97, src/_page-home.scss */
 .references-series-details .splitter {
-  height: 600px;
+  height: 700px;
   width: 100%;
 }
 /* line 102, src/_page-home.scss */
@@ -887,7 +887,7 @@ blockquote p:after {
   font-size: 30px;
   width: 40px;
   position: relative;
-  top: 45px;
+  top: 40px;
   left: 25px;
   font-family: "Proxima N W01 Thin Reg";
   margin: 0;
@@ -1007,7 +1007,7 @@ blockquote p:after {
   width: 300px;
   position: relative;
   top: 100px;
-  left: 350px;
+  left: 427px;
 }
 /* line 275, src/_page-home.scss */
 .hand-crafted-wrapper .sigblock span {
