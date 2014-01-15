@@ -392,10 +392,9 @@ a {
 /* line 10, src/_type.scss */
 a:hover {
   color: #005580;
-  text-decoration: underline;
 }
 
-/* line 18, src/_type.scss */
+/* line 17, src/_type.scss */
 p {
   margin: 0 0 0.6;
   font-family: "Proxima N W15 Reg";
@@ -403,27 +402,27 @@ p {
   position: relative;
 }
 
-/* line 29, src/_type.scss */
+/* line 28, src/_type.scss */
 small {
   font-size: 85%;
 }
 
-/* line 30, src/_type.scss */
+/* line 29, src/_type.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 31, src/_type.scss */
+/* line 30, src/_type.scss */
 em {
   font-style: italic;
 }
 
-/* line 32, src/_type.scss */
+/* line 31, src/_type.scss */
 cite {
   font-style: normal;
 }
 
-/* line 37, src/_type.scss */
+/* line 36, src/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0.6 0;
   line-height: 1;
@@ -431,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
   text-spacing: 10;
 }
 
-/* line 44, src/_type.scss */
+/* line 43, src/_type.scss */
 h1 {
   font-size: 65px;
   line-height: 40px;
@@ -443,7 +442,7 @@ h1 {
   text-align: center;
 }
 
-/* line 55, src/_type.scss */
+/* line 54, src/_type.scss */
 h2 {
   font-size: 64px;
   line-height: 50px;
@@ -457,7 +456,7 @@ h2 {
   letter-spacing: 1.5px;
 }
 
-/* line 68, src/_type.scss */
+/* line 67, src/_type.scss */
 h3 {
   font-size: 55px;
   line-height: 55px;
@@ -468,7 +467,7 @@ h3 {
   letter-spacing: 1.5px;
 }
 
-/* line 78, src/_type.scss */
+/* line 77, src/_type.scss */
 h4 {
   font-size: 40px;
   line-height: 40px;
@@ -482,7 +481,7 @@ h4 {
   letter-spacing: 1.5px;
 }
 
-/* line 91, src/_type.scss */
+/* line 90, src/_type.scss */
 h5 {
   font-size: 36px;
   line-height: 36px;
@@ -494,7 +493,7 @@ h5 {
   letter-spacing: 1.5px;
 }
 
-/* line 102, src/_type.scss */
+/* line 101, src/_type.scss */
 h6 {
   font-family: "Proxima N W15 Reg";
   font-size: 16px;
@@ -504,7 +503,7 @@ h6 {
   margin: 0;
 }
 
-/* line 112, src/_type.scss */
+/* line 111, src/_type.scss */
 hr {
   margin: 1.2 0;
   height: 2px;
@@ -514,7 +513,7 @@ hr {
   border-bottom: 1px solid white;
 }
 
-/* line 122, src/_type.scss */
+/* line 121, src/_type.scss */
 address {
   display: block;
   margin-bottom: 1.2;
@@ -546,19 +545,19 @@ button:focus {
 }
 
 /* line 28, src/_c-buttons.scss */
-.btn {
+.btn, footer .footer-btn {
   display: inline-block;
   *display: inline;
   /* IE7 inline-block hack */
   *zoom: 1;
 }
 /* line 32, src/_c-buttons.scss */
-.btn .btn-large {
+.btn .btn-large, footer .footer-btn .btn-large {
   width: 268px;
   height: 56px;
 }
 /* line 37, src/_c-buttons.scss */
-.btn .btn-medium {
+.btn .btn-medium, footer .footer-btn .btn-medium {
   width: 188px;
   height: 46px;
   margin: 10px;
@@ -602,9 +601,10 @@ blockquote {
   margin: auto;
   text-align: justify;
   position: relative;
+  top: 70px;
   quotes: "“" "”" "‘" "’";
 }
-/* line 43, src/_p-styles-template.scss */
+/* line 44, src/_p-styles-template.scss */
 blockquote:before {
   content: open-quote;
   position: absolute;
@@ -615,7 +615,7 @@ blockquote:before {
   left: -35px;
   top: -7px;
 }
-/* line 55, src/_p-styles-template.scss */
+/* line 56, src/_p-styles-template.scss */
 blockquote p {
   line-height: 40px;
   font-size: 18px;
@@ -627,7 +627,7 @@ blockquote p {
   display: inline;
   position: relative;
 }
-/* line 66, src/_p-styles-template.scss */
+/* line 67, src/_p-styles-template.scss */
 blockquote p:after {
   content: close-quote;
   position: absolute;
@@ -639,7 +639,7 @@ blockquote p:after {
   bottom: -7px;
 }
 
-/* line 79, src/_p-styles-template.scss */
+/* line 80, src/_p-styles-template.scss */
 .stamp, .stamp-logo-1, .stamp-logo-2, .stamp-logo-3, .details-stamp {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #303030;
@@ -649,7 +649,7 @@ blockquote p:after {
   padding: 20px;
   margin: 20px;
 }
-/* line 88, src/_p-styles-template.scss */
+/* line 89, src/_p-styles-template.scss */
 .stamp p, .stamp-logo-1 p, .stamp-logo-2 p, .stamp-logo-3 p, .details-stamp p {
   font-family: "Proxima N W15 Reg";
   font-size: 55px;
@@ -658,7 +658,7 @@ blockquote p:after {
   position: relative;
   top: -55px;
 }
-/* line 97, src/_p-styles-template.scss */
+/* line 98, src/_p-styles-template.scss */
 .stamp span, .stamp-logo-1 span, .stamp-logo-2 span, .stamp-logo-3 span, .details-stamp span {
   font-size: 14px;
   color: #bbbbbb;
@@ -666,43 +666,43 @@ blockquote p:after {
   margin-top: 0;
 }
 
-/* line 105, src/_p-styles-template.scss */
+/* line 106, src/_p-styles-template.scss */
 .stamp-logo-1 {
   width: 158px;
   height: 70px;
   padding: auto;
 }
-/* line 110, src/_p-styles-template.scss */
+/* line 111, src/_p-styles-template.scss */
 .stamp-logo-1 span {
   display: inline-block;
   margin: 0;
 }
 
-/* line 118, src/_p-styles-template.scss */
+/* line 119, src/_p-styles-template.scss */
 .stamp-logo-2 {
   width: 158px;
   height: 70px;
   padding: auto;
 }
-/* line 123, src/_p-styles-template.scss */
+/* line 124, src/_p-styles-template.scss */
 .stamp-logo-2 span {
   display: inline-block;
   margin: 0;
 }
 
-/* line 130, src/_p-styles-template.scss */
+/* line 131, src/_p-styles-template.scss */
 .stamp-logo-3 {
   width: 158px;
   height: 70px;
   padding: auto;
 }
-/* line 135, src/_p-styles-template.scss */
+/* line 136, src/_p-styles-template.scss */
 .stamp-logo-3 span {
   display: inline-block;
   margin: 0;
 }
 
-/* line 142, src/_p-styles-template.scss */
+/* line 143, src/_p-styles-template.scss */
 .details-stamp {
   float: right;
   position: relative;
@@ -710,7 +710,7 @@ blockquote p:after {
   height: 90px;
   top: 65px;
 }
-/* line 150, src/_p-styles-template.scss */
+/* line 151, src/_p-styles-template.scss */
 .details-stamp p {
   display: inline-block;
   font-size: 35px;
@@ -718,22 +718,22 @@ blockquote p:after {
   position: relative;
   top: -20px;
 }
-/* line 158, src/_p-styles-template.scss */
+/* line 159, src/_p-styles-template.scss */
 .details-stamp p:last-child {
   left: -10px;
 }
 
-/* line 164, src/_p-styles-template.scss */
-.btn {
+/* line 165, src/_p-styles-template.scss */
+.btn, footer .footer-btn {
   width: 100%;
 }
-/* line 167, src/_p-styles-template.scss */
-.btn .btn-large {
+/* line 168, src/_p-styles-template.scss */
+.btn .btn-large, footer .footer-btn .btn-large {
   display: block;
   margin: auto auto 100px auto;
 }
-/* line 172, src/_p-styles-template.scss */
-.btn div {
+/* line 173, src/_p-styles-template.scss */
+.btn div, footer .footer-btn div {
   margin: 25px;
 }
 
@@ -798,7 +798,7 @@ blockquote p:after {
 
 /* line 68, src/_page-home.scss */
 .reference-series {
-  height: 948px;
+  height: 890px;
   width: 100%;
   margin: 0;
   background-image: url("/static/img/reference-hero.png");
@@ -828,7 +828,7 @@ blockquote p:after {
 }
 /* line 97, src/_page-home.scss */
 .references-series-details .splitter {
-  height: 700px;
+  height: 600px;
   width: 100%;
 }
 /* line 102, src/_page-home.scss */
@@ -938,7 +938,7 @@ blockquote p:after {
 .audio .title-wrapper {
   background-image: url("/static/img/reference-hero3.png");
   background-size: 100%;
-  height: 500px;
+  height: 460px;
   width: 100%;
 }
 
@@ -986,8 +986,144 @@ blockquote p:after {
 
 /* line 253, src/_page-home.scss */
 .viaplus-splitpic {
-  height: 315px;
+  height: 295px;
   width: 100%;
   background-image: url("/static/img/reference-hero4.png");
   background-size: 100%;
+}
+
+/* line 260, src/_page-home.scss */
+.hand-crafted-wrapper {
+  background-color: #131313;
+  height: 655px;
+}
+/* line 264, src/_page-home.scss */
+.hand-crafted-wrapper .sigblock {
+  font-size: 16px;
+  font-family: "Proxima N W15 Smbd";
+  color: white;
+  text-align: left;
+  height: 40px;
+  width: 300px;
+  position: relative;
+  top: 100px;
+  left: 350px;
+}
+/* line 275, src/_page-home.scss */
+.hand-crafted-wrapper .sigblock span {
+  font-family: "Proxima N W01 Thin Reg";
+  color: #bbbbbb;
+  display: block;
+}
+
+/* line 283, src/_page-home.scss */
+.product-video {
+  background-color: #131313;
+}
+
+/* line 287, src/_page-home.scss */
+.video-tour-btn-wrapper {
+  height: 140px;
+}
+/* line 290, src/_page-home.scss */
+.video-tour-btn-wrapper .video-tour-btn {
+  height: 80px;
+  width: 90px;
+  display: inline-block;
+  margin: 30px;
+}
+/* line 296, src/_page-home.scss */
+.video-tour-btn-wrapper .video-tour-btn .play-button {
+  height: 45px;
+  width: 80px;
+  border: 2px solid #bbbbbb;
+  border-radius: 2px;
+  font-family: "Proxima N W15 Smbd";
+  font-size: 26px;
+  margin: 0;
+}
+/* line 306, src/_page-home.scss */
+.video-tour-btn-wrapper .video-tour-btn span {
+  display: block;
+  font-family: "Proxima N W01 Thin Reg";
+  font-size: 14px;
+  margin-top: 15px;
+  position: relative;
+  left: -2px;
+}
+
+/* line 316, src/_page-home.scss */
+.page-break {
+  margin: 0;
+}
+
+/* line 320, src/_page-home.scss */
+.awards-accolades-wrapper {
+  background-color: #131313;
+  height: 415px;
+  width: 100%;
+}
+
+/* line 326, src/_page-home.scss */
+.awards {
+  height: 110px;
+  width: 300px;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  top: 90px;
+}
+/* line 334, src/_page-home.scss */
+.awards .award-img {
+  height: 77px;
+  width: 140px;
+  background-color: #1f1f1f;
+}
+/* line 340, src/_page-home.scss */
+.awards .award-details {
+  font-family: "Proxima N W15 Smbd";
+  font-size: 14px;
+  color: white;
+  width: 122px;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  top: -65px;
+  left: 65px;
+}
+/* line 351, src/_page-home.scss */
+.awards .award-details span {
+  display: block;
+  font-family: "Proxima N W15 Reg";
+  color: #bbbbbb;
+}
+
+/* line 359, src/_page-home.scss */
+footer {
+  height: 156px;
+  width: 100%;
+  background-color: black;
+}
+/* line 364, src/_page-home.scss */
+footer .footer-btn {
+  width: 50%;
+  position: relative;
+  left: -100px;
+  top: 15px;
+}
+/* line 372, src/_page-home.scss */
+footer .next-up {
+  height: 80px;
+  width: 410px;
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  top: 25px;
+}
+/* line 380, src/_page-home.scss */
+footer .next-up p {
+  font-family: "Proxima N W01 Thin Reg";
+  font-size: 28px;
+  color: white;
+  margin: 0;
 }

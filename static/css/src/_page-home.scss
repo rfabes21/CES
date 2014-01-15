@@ -66,7 +66,7 @@
 
 // Main content
 .reference-series {
-	height: 948px;
+	height: 890px;
 	width: 100%;
 	margin: 0;
 	background-image: url('/static/img/reference-hero.png');
@@ -95,7 +95,7 @@
 	}
 
 	.splitter {
-		height: 700px;
+		height: 600px;
 		width: 100%;
 	}
 	
@@ -205,7 +205,7 @@
 	.title-wrapper {
 		background-image: url('/static/img/reference-hero3.png');
 		background-size: 100%;
-		height: 500px;
+		height: 460px;
 		width: 100%;
 	}
 }
@@ -251,8 +251,138 @@
 }
 
 .viaplus-splitpic {
-	height: 315px;
+	height: 295px;
 	width: 100%;
 	background-image: url('/static/img/reference-hero4.png');
 	background-size: 100%;
+}
+
+.hand-crafted-wrapper {
+	background-color: $greyBackground;
+	height: 655px;
+	
+	.sigblock {
+		font-size: 16px;
+		font-family: $ProximaSemiBold;
+		color: white;
+		text-align: left;
+		height: 40px;
+		width: 300px;
+		position: relative;
+		top: 100px;
+		left: 350px;
+
+		span {
+			font-family: $ProximaThin;
+			color: $lighter-grey;
+			display: block;
+		}
+	}
+}
+
+.product-video {
+	background-color: $greyBackground;
+}
+
+.video-tour-btn-wrapper {
+	height: 140px;
+
+	.video-tour-btn {
+		height: 80px;
+		width: 90px;
+		display: inline-block;
+		margin: 30px;
+
+		.play-button {
+			height: 45px;
+			width: 80px;
+			border: 2px solid $lighter-grey;
+			border-radius: 2px;
+			font-family: $ProximaSemiBold;
+			font-size: 26px;
+			margin: 0;
+		}
+
+		span {
+			display: block;
+			font-family: $ProximaThin;
+			font-size: 14px;
+			margin-top: 15px;
+			position: relative;
+			left: -2px;
+		}
+	}
+}	
+.page-break {
+	margin: 0;
+}
+
+.awards-accolades-wrapper {
+	background-color: $greyBackground;
+	height: 415px;
+	width: 100%;
+}
+
+.awards {
+	height: 110px;
+	width: 300px;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	top: 90px;
+
+	.award-img {
+		height: 77px;
+		width: 140px;
+		background-color: #1f1f1f;
+	}
+
+	.award-details {
+		font-family: $ProximaSemiBold;
+		font-size: 14px;
+		color: $white;
+		width: 122px;
+		text-align: left;
+		display: inline-block;
+		position: relative;
+		top: -65px;
+		left: 65px;
+
+		span {
+			display: block;
+			font-family: $ProximaRegular;
+			color: $lighter-grey;
+		}
+	}
+}
+
+footer {
+	height: 156px;
+	width: 100%;
+	background-color: $bodyBackground;
+
+	.footer-btn {
+		@extend .btn;
+		width: 50%;
+		position: relative;
+		left: -100px;
+		top: 15px;
+	}
+
+	.next-up {
+		height: 80px;
+		width: 410px;
+		display: inline-block;
+		text-align: left;
+		position: relative;
+		top: 25px;
+
+		p {
+			font-family: $ProximaThin;
+			font-size: 28px;
+			color: $white;
+			margin: 0;
+		}
+	}
+
 }
