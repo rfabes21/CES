@@ -846,13 +846,13 @@ blockquote p:after {
   float: left;
 }
 
-/* line 117, src/_page-home.scss */
+/* line 118, src/_page-home.scss */
 .performance-wrapper {
   background-color: #131313;
   height: 735px;
 }
 
-/* line 124, src/_page-home.scss */
+/* line 125, src/_page-home.scss */
 .performance-info aside {
   text-align: left;
   width: 500px;
@@ -862,18 +862,18 @@ blockquote p:after {
   top: 150px;
   left: 200px;
 }
-/* line 133, src/_page-home.scss */
+/* line 134, src/_page-home.scss */
 .performance-info aside p {
   width: 400px;
   font-size: 16px;
 }
-/* line 139, src/_page-home.scss */
+/* line 140, src/_page-home.scss */
 .performance-info h5 {
   top: 0;
   margin: 0;
 }
 
-/* line 145, src/_page-home.scss */
+/* line 146, src/_page-home.scss */
 .speed-graph {
   height: 170px;
   width: 440px;
@@ -882,7 +882,7 @@ blockquote p:after {
   position: relative;
   left: 750px;
 }
-/* line 153, src/_page-home.scss */
+/* line 154, src/_page-home.scss */
 .speed-graph p {
   font-size: 30px;
   width: 40px;
@@ -892,7 +892,7 @@ blockquote p:after {
   font-family: "Proxima N W01 Thin Reg";
   margin: 0;
 }
-/* line 164, src/_page-home.scss */
+/* line 165, src/_page-home.scss */
 .speed-graph .faster {
   width: 300px;
   border-top: 4px solid #ac3322;
@@ -902,7 +902,7 @@ blockquote p:after {
   margin-bottom: 20px;
   color: #ac3322;
 }
-/* line 174, src/_page-home.scss */
+/* line 175, src/_page-home.scss */
 .speed-graph .slower {
   width: 300px;
   border-top: 4px solid #bbbbbb;
@@ -910,31 +910,31 @@ blockquote p:after {
   left: 105px;
   top: 15px;
 }
-/* line 182, src/_page-home.scss */
+/* line 183, src/_page-home.scss */
 .speed-graph span {
   font-size: 13px;
   font-family: "Proxima N W15 Smbd";
   text-transform: uppercase;
 }
-/* line 188, src/_page-home.scss */
+/* line 189, src/_page-home.scss */
 .speed-graph .left {
   float: left;
   margin-top: 10px;
 }
-/* line 193, src/_page-home.scss */
+/* line 194, src/_page-home.scss */
 .speed-graph .right {
   float: right;
   margin-top: 10px;
 }
 
-/* line 199, src/_page-home.scss */
+/* line 201, src/_page-home.scss */
 .audio {
   height: 1050px;
   width: 100%;
   margin: 0;
   padding: 0;
 }
-/* line 205, src/_page-home.scss */
+/* line 207, src/_page-home.scss */
 .audio .title-wrapper {
   background-image: url("/static/img/reference-hero3.png");
   background-size: 100%;
@@ -942,41 +942,41 @@ blockquote p:after {
   width: 100%;
 }
 
-/* line 213, src/_page-home.scss */
+/* line 215, src/_page-home.scss */
 .audio-details {
   margin-top: 80px;
 }
-/* line 216, src/_page-home.scss */
+/* line 218, src/_page-home.scss */
 .audio-details p {
   width: 605px;
   font-size: 16px;
   margin: auto;
 }
-/* line 222, src/_page-home.scss */
+/* line 224, src/_page-home.scss */
 .audio-details .stamp-logo-wrapper {
   margin-top: 60px;
 }
 
-/* line 227, src/_page-home.scss */
+/* line 230, src/_page-home.scss */
 .viaplus-wrapper {
   background-color: #131313;
 }
-/* line 230, src/_page-home.scss */
+/* line 233, src/_page-home.scss */
 .viaplus-wrapper h5 {
   padding-top: 60px;
 }
-/* line 234, src/_page-home.scss */
+/* line 237, src/_page-home.scss */
 .viaplus-wrapper .viaplus-info {
   width: 600px;
   margin: auto;
   font-size: 16px;
 }
 
-/* line 242, src/_page-home.scss */
+/* line 245, src/_page-home.scss */
 .app-icon-wrapper {
   height: 200px;
 }
-/* line 245, src/_page-home.scss */
+/* line 248, src/_page-home.scss */
 .app-icon-wrapper div {
   display: inline-block;
   margin: 4px;
@@ -984,7 +984,7 @@ blockquote p:after {
   top: 70px;
 }
 
-/* line 253, src/_page-home.scss */
+/* line 256, src/_page-home.scss */
 .viaplus-splitpic {
   height: 295px;
   width: 100%;
@@ -992,12 +992,12 @@ blockquote p:after {
   background-size: 100%;
 }
 
-/* line 260, src/_page-home.scss */
+/* line 264, src/_page-home.scss */
 .hand-crafted-wrapper {
   background-color: #131313;
   height: 655px;
 }
-/* line 264, src/_page-home.scss */
+/* line 268, src/_page-home.scss */
 .hand-crafted-wrapper .sigblock {
   font-size: 16px;
   font-family: "Proxima N W15 Smbd";
@@ -1009,30 +1009,30 @@ blockquote p:after {
   top: 100px;
   left: 427px;
 }
-/* line 275, src/_page-home.scss */
+/* line 279, src/_page-home.scss */
 .hand-crafted-wrapper .sigblock span {
   font-family: "Proxima N W01 Thin Reg";
   color: #bbbbbb;
   display: block;
 }
 
-/* line 283, src/_page-home.scss */
+/* line 288, src/_page-home.scss */
 .product-video {
   background-color: #131313;
 }
 
-/* line 287, src/_page-home.scss */
+/* line 292, src/_page-home.scss */
 .video-tour-btn-wrapper {
   height: 140px;
 }
-/* line 290, src/_page-home.scss */
+/* line 295, src/_page-home.scss */
 .video-tour-btn-wrapper .video-tour-btn {
   height: 80px;
   width: 90px;
   display: inline-block;
   margin: 30px;
 }
-/* line 296, src/_page-home.scss */
+/* line 301, src/_page-home.scss */
 .video-tour-btn-wrapper .video-tour-btn .play-button {
   height: 45px;
   width: 80px;
@@ -1042,7 +1042,7 @@ blockquote p:after {
   font-size: 26px;
   margin: 0;
 }
-/* line 306, src/_page-home.scss */
+/* line 311, src/_page-home.scss */
 .video-tour-btn-wrapper .video-tour-btn span {
   display: block;
   font-family: "Proxima N W01 Thin Reg";
@@ -1052,19 +1052,19 @@ blockquote p:after {
   left: -2px;
 }
 
-/* line 316, src/_page-home.scss */
+/* line 321, src/_page-home.scss */
 .page-break {
   margin: 0;
 }
 
-/* line 320, src/_page-home.scss */
+/* line 326, src/_page-home.scss */
 .awards-accolades-wrapper {
   background-color: #131313;
   height: 415px;
   width: 100%;
 }
 
-/* line 326, src/_page-home.scss */
+/* line 332, src/_page-home.scss */
 .awards {
   height: 110px;
   width: 300px;
@@ -1073,13 +1073,13 @@ blockquote p:after {
   position: relative;
   top: 90px;
 }
-/* line 334, src/_page-home.scss */
+/* line 340, src/_page-home.scss */
 .awards .award-img {
   height: 77px;
   width: 140px;
   background-color: #1f1f1f;
 }
-/* line 340, src/_page-home.scss */
+/* line 346, src/_page-home.scss */
 .awards .award-details {
   font-family: "Proxima N W15 Smbd";
   font-size: 14px;
@@ -1091,27 +1091,27 @@ blockquote p:after {
   top: -65px;
   left: 65px;
 }
-/* line 351, src/_page-home.scss */
+/* line 357, src/_page-home.scss */
 .awards .award-details span {
   display: block;
   font-family: "Proxima N W15 Reg";
   color: #bbbbbb;
 }
 
-/* line 359, src/_page-home.scss */
+/* line 365, src/_page-home.scss */
 footer {
   height: 156px;
   width: 100%;
   background-color: black;
 }
-/* line 364, src/_page-home.scss */
+/* line 370, src/_page-home.scss */
 footer .footer-btn {
   width: 50%;
   position: relative;
   left: -100px;
   top: 15px;
 }
-/* line 372, src/_page-home.scss */
+/* line 378, src/_page-home.scss */
 footer .next-up {
   height: 80px;
   width: 410px;
@@ -1120,7 +1120,7 @@ footer .next-up {
   position: relative;
   top: 25px;
 }
-/* line 380, src/_page-home.scss */
+/* line 386, src/_page-home.scss */
 footer .next-up p {
   font-family: "Proxima N W01 Thin Reg";
   font-size: 28px;
